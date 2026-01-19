@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "date": "2026-01-19",
+  "stats": {
+    "total": 0,
+    "buy": 0,
+    "hold": 0,
+    "sell": 0,
+    "avg_score": 0
+  },
+  "stocks": [],
+  "last_update": null
+}

@@ -1,2 +1,0 @@
-# 此文件用于确保docs目录被git跟踪
-# dashboard_data.json 会在GitHub Actions中自动生成
