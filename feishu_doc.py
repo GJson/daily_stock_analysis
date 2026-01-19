@@ -2,12 +2,20 @@
 # -*- coding: utf-8 -*-
 import logging
 import json
-import lark_oapi as lark
-from lark_oapi.api.docx.v1 import *
 from typing import List, Dict, Any, Optional
 from config import get_config
 
 logger = logging.getLogger(__name__)
+
+# 可选导入飞书SDK
+try:
+    import lark_oapi as lark
+    from lark_oapi.api.docx.v1 import *
+    LARK_AVAILABLE = True
+except ImportError:
+    lark = None
+    LARK_AVAILABLE = False
+    logger.warning("lark_oapi 未安装，飞书文档功能将不可用。如需使用请运行: pip install lark-oapi")
 
 
 class FeishuDocManager:
@@ -21,12 +29,16 @@ class FeishuDocManager:
 
         # 初始化 SDK 客户端
         # SDK 会自动处理 tenant_access_token 的获取和刷新，无需人工干预
-        if self.is_configured():
-            self.client = lark.Client.builder() \
-                .app_id(self.app_id) \
-                .app_secret(self.app_secret) \
-                .log_level(lark.LogLevel.INFO) \
-                .build()
+        if self.is_configured() and LARK_AVAILABLE:
+            try:
+                self.client = lark.Client.builder() \
+                    .app_id(self.app_id) \
+                    .app_secret(self.app_secret) \
+                    .log_level(lark.LogLevel.INFO) \
+                    .build()
+            except Exception as e:
+                logger.error(f"飞书SDK初始化失败: {e}")
+                self.client = None
         else:
             self.client = None
 
@@ -38,6 +50,10 @@ class FeishuDocManager:
         """
         创建日报文档
         """
+        if not LARK_AVAILABLE:
+            logger.warning("lark_oapi 未安装，飞书文档功能不可用")
+            return None
+        
         if not self.client or not self.is_configured():
             logger.warning("飞书 SDK 未初始化或配置缺失，跳过创建")
             return None
@@ -98,10 +114,13 @@ class FeishuDocManager:
             logger.error(traceback.format_exc())
             return None
 
-    def _markdown_to_sdk_blocks(self, md_text: str) -> List[Block]:
+    def _markdown_to_sdk_blocks(self, md_text: str) -> List:
         """
         将简单的 Markdown 转换为飞书 SDK 的 Block 对象
         """
+        if not LARK_AVAILABLE:
+            return []
+        
         blocks = []
         lines = md_text.split('\n')
 

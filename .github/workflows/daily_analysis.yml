@@ -119,6 +119,11 @@ jobs:
             logs/
           retention-days: 30
       
+      - name: 生成静态数据文件
+        if: always()
+        run: |
+          python scripts/generate_static_data.py
+      
       - name: 显示运行结果
         if: always()
         run: |
@@ -129,3 +134,16 @@ jobs:
             echo "生成的报告:"
             ls -la reports/
           fi
+          if [ -f "docs/dashboard_data.json" ]; then
+            echo "静态数据文件已生成: docs/dashboard_data.json"
+          fi
+      
+      - name: 部署到GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          keep_files: false
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'

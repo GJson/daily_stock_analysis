@@ -12,6 +12,7 @@ A股自选股智能分析系统 - 存储层
 """
 
 import logging
+import json
 from datetime import datetime, date, timedelta
 from typing import Optional, List, Dict, Any
 from pathlib import Path
@@ -27,6 +28,7 @@ from sqlalchemy import (
     Integer,
     Index,
     UniqueConstraint,
+    Text,
     select,
     and_,
     desc,
@@ -116,6 +118,63 @@ class StockDaily(Base):
             'ma20': self.ma20,
             'volume_ratio': self.volume_ratio,
             'data_source': self.data_source,
+        }
+
+
+class AnalysisRecord(Base):
+    """
+    分析结果记录模型
+    
+    存储每次AI分析的结果,用于可视化展示和历史查询
+    """
+    __tablename__ = 'analysis_records'
+    
+    # 主键
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    
+    # 股票代码和名称
+    code = Column(String(10), nullable=False, index=True)
+    name = Column(String(50), nullable=False)
+    
+    # 分析日期
+    analysis_date = Column(Date, nullable=False, index=True)
+    
+    # 核心指标
+    sentiment_score = Column(Integer)  # 综合评分 0-100
+    trend_prediction = Column(String(20))  # 趋势预测
+    operation_advice = Column(String(20))  # 操作建议
+    confidence_level = Column(String(10))  # 置信度
+    
+    # 完整的分析结果(JSON格式,使用Text存储)
+    analysis_data = Column(Text)  # 存储完整的AnalysisResult数据(JSON字符串)
+    
+    # 原始报告内容(Markdown格式)
+    report_content = Column(Text)
+    
+    # 创建时间
+    created_at = Column(DateTime, default=datetime.now, index=True)
+    
+    # 唯一约束：同一股票同一日期只能有一条分析记录
+    __table_args__ = (
+        UniqueConstraint('code', 'analysis_date', name='uix_code_analysis_date'),
+        Index('ix_code_analysis_date', 'code', 'analysis_date'),
+        Index('ix_created_at', 'created_at'),
+    )
+    
+    def to_dict(self) -> Dict[str, Any]:
+        """转换为字典"""
+        return {
+            'id': self.id,
+            'code': self.code,
+            'name': self.name,
+            'analysis_date': self.analysis_date.isoformat() if self.analysis_date else None,
+            'sentiment_score': self.sentiment_score,
+            'trend_prediction': self.trend_prediction,
+            'operation_advice': self.operation_advice,
+            'confidence_level': self.confidence_level,
+            'analysis_data': json.loads(self.analysis_data) if self.analysis_data else None,
+            'report_content': self.report_content,
+            'created_at': self.created_at.isoformat() if self.created_at else None,
         }
 
 
@@ -463,6 +522,124 @@ class DatabaseManager:
             return "短期走弱 🔽"
         else:
             return "震荡整理 ↔️"
+    
+    def save_analysis_result(
+        self,
+        code: str,
+        name: str,
+        analysis_date: date,
+        analysis_result: Any,  # AnalysisResult对象
+        report_content: Optional[str] = None
+    ) -> int:
+        """
+        保存分析结果到数据库
+        
+        Args:
+            code: 股票代码
+            name: 股票名称
+            analysis_date: 分析日期
+            analysis_result: AnalysisResult对象
+            report_content: 报告内容(Markdown格式,可选)
+            
+        Returns:
+            保存的记录ID
+        """
+        with self.get_session() as session:
+            try:
+                # 检查是否已存在
+                existing = session.execute(
+                    select(AnalysisRecord).where(
+                        and_(
+                            AnalysisRecord.code == code,
+                            AnalysisRecord.analysis_date == analysis_date
+                        )
+                    )
+                ).scalar_one_or_none()
+                
+                # 转换为字典并序列化为JSON字符串
+                analysis_dict = analysis_result.to_dict() if hasattr(analysis_result, 'to_dict') else {}
+                analysis_data_json = json.dumps(analysis_dict, ensure_ascii=False, default=str)
+                
+                if existing:
+                    # 更新现有记录
+                    existing.name = name
+                    existing.sentiment_score = analysis_result.sentiment_score
+                    existing.trend_prediction = analysis_result.trend_prediction
+                    existing.operation_advice = analysis_result.operation_advice
+                    existing.confidence_level = getattr(analysis_result, 'confidence_level', '中')
+                    existing.analysis_data = analysis_data_json
+                    if report_content:
+                        existing.report_content = report_content
+                    record_id = existing.id
+                else:
+                    # 创建新记录
+                    record = AnalysisRecord(
+                        code=code,
+                        name=name,
+                        analysis_date=analysis_date,
+                        sentiment_score=analysis_result.sentiment_score,
+                        trend_prediction=analysis_result.trend_prediction,
+                        operation_advice=analysis_result.operation_advice,
+                        confidence_level=getattr(analysis_result, 'confidence_level', '中'),
+                        analysis_data=analysis_data_json,
+                        report_content=report_content,
+                    )
+                    session.add(record)
+                    session.flush()
+                    record_id = record.id
+                
+                session.commit()
+                logger.debug(f"保存分析结果成功: {code} {analysis_date}, ID={record_id}")
+                return record_id
+                
+            except Exception as e:
+                session.rollback()
+                logger.error(f"保存分析结果失败: {e}")
+                raise
+    
+    def get_latest_analysis(
+        self,
+        code: Optional[str] = None,
+        limit: int = 10
+    ) -> List[AnalysisRecord]:
+        """
+        获取最新的分析结果
+        
+        Args:
+            code: 股票代码(可选,不指定则返回所有股票)
+            limit: 返回数量限制
+            
+        Returns:
+            AnalysisRecord列表
+        """
+        with self.get_session() as session:
+            query = select(AnalysisRecord)
+            if code:
+                query = query.where(AnalysisRecord.code == code)
+            query = query.order_by(desc(AnalysisRecord.created_at)).limit(limit)
+            results = session.execute(query).scalars().all()
+            return list(results)
+    
+    def get_analysis_by_date(
+        self,
+        analysis_date: date
+    ) -> List[AnalysisRecord]:
+        """
+        获取指定日期的所有分析结果
+        
+        Args:
+            analysis_date: 分析日期
+            
+        Returns:
+            AnalysisRecord列表
+        """
+        with self.get_session() as session:
+            results = session.execute(
+                select(AnalysisRecord)
+                .where(AnalysisRecord.analysis_date == analysis_date)
+                .order_by(desc(AnalysisRecord.sentiment_score))
+            ).scalars().all()
+            return list(results)
 
 
 # 便捷函数

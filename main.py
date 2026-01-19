@@ -572,6 +572,25 @@ class StockAnalysisPipeline:
         logger.info(f"===== 分析完成 =====")
         logger.info(f"成功: {success_count}, 失败: {fail_count}, 耗时: {elapsed_time:.2f} 秒")
         
+        # 保存分析结果到数据库(用于可视化展示)
+        if results and not dry_run:
+            try:
+                today = date.today()
+                for result in results:
+                    # 生成报告内容
+                    report_content = self.notifier.generate_dashboard_report([result])
+                    # 保存到数据库
+                    self.db.save_analysis_result(
+                        code=result.code,
+                        name=result.name,
+                        analysis_date=today,
+                        analysis_result=result,
+                        report_content=report_content
+                    )
+                logger.info(f"已保存 {len(results)} 条分析结果到数据库")
+            except Exception as e:
+                logger.error(f"保存分析结果到数据库失败: {e}")
+        
         # 发送通知（单股推送模式下跳过汇总推送，避免重复）
         if results and send_notification and not dry_run:
             if single_stock_notify:
@@ -911,8 +930,24 @@ def main() -> int:
         try:
             from webui import run_server_in_thread
             run_server_in_thread(host=config.webui_host, port=config.webui_port)
+            logger.info(f"配置管理 WebUI 已启动: http://{config.webui_host}:{config.webui_port}")
         except Exception as e:
-            logger.error(f"启动 WebUI 失败: {e}")
+            logger.error(f"启动配置管理 WebUI 失败: {e}")
+    
+    # === 启动可视化仪表盘 (如果启用) ===
+    start_dashboard = (args.webui or config.webui_enabled) and os.getenv("GITHUB_ACTIONS") != "true"
+    
+    if start_dashboard:
+        try:
+            from dashboard import run_server_in_thread as run_dashboard_server
+            dashboard_port = config.webui_port + 1
+            run_dashboard_server(host=config.webui_host, port=dashboard_port, debug=args.debug)
+            logger.info(f"可视化仪表盘已启动: http://{config.webui_host}:{dashboard_port}")
+        except ImportError as e:
+            logger.warning(f"无法启动可视化仪表盘(缺少依赖): {e}")
+            logger.info("提示: 请运行 'pip install flask flask-cors' 安装依赖")
+        except Exception as e:
+            logger.error(f"启动可视化仪表盘失败: {e}")
 
     try:
         # 模式1: 仅大盘复盘
@@ -962,6 +997,8 @@ def main() -> int:
         # 如果启用了 WebUI 且是非定时任务模式，保持程序运行以便访问 WebUI
         if start_webui and not (args.schedule or config.schedule_enabled):
             logger.info("WebUI 运行中 (按 Ctrl+C 退出)...")
+            logger.info(f"配置管理: http://{config.webui_host}:{config.webui_port}")
+            logger.info(f"可视化仪表盘: http://{config.webui_host}:{config.webui_port + 1}")
             try:
                 # 简单的保持活跃循环
                 while True:
