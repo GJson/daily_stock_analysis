@@ -129,3 +129,18 @@ jobs:
             echo "生成的报告:"
             ls -la reports/
           fi
+    
+      - name: 生成静态数据文件
+        if: always()
+        run: |
+          python scripts/generate_static_data.py || echo "数据生成失败，跳过部署"
+      
+      - name: 部署到GitHub Pages
+        if: always() && hashFiles('docs/dashboard_data.json')
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          keep_files: false
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'    
