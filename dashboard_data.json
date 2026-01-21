@@ -1,1 +1,405 @@
-{"success": true, "stocks": [], "stats": {"total": 0, "buy": 0, "hold": 0, "sell": 0, "avg_score": 0}}
+{
+  "success": true,
+  "date": "2026-01-21",
+  "stats": {
+    "total": 6,
+    "buy": 0,
+    "hold": 6,
+    "sell": 0,
+    "avg_score": 50.0
+  },
+  "stocks": [
+    {
+      "id": 2,
+      "code": "688343",
+      "name": "云天励飞-U",
+      "analysis_date": "2026-01-21",
+      "sentiment_score": 55,
+      "trend_prediction": "看多",
+      "operation_advice": "观望",
+      "confidence_level": "中",
+      "analysis_data": {
+        "code": "688343",
+        "name": "云天励飞-U",
+        "sentiment_score": 55,
+        "trend_prediction": "看多",
+        "operation_advice": "观望",
+        "confidence_level": "中",
+        "dashboard": {
+          "core_conclusion": {
+            "one_sentence": "云天励飞-U趋势强势，但乖离率高、获利盘大且高管减持，建议观望。",
+            "signal_type": "🟡持有观望",
+            "time_sensitivity": "不急",
+            "position_advice": {
+              "no_position": "空仓者建议等待股价缩量回踩MA5或MA10企稳后再考虑介入，规避短期回调风险。",
+              "has_position": "持仓者建议关注获利盘兑现压力，可考虑适当减仓锁定利润，或将止损位上移至MA10，警惕高管减持带来的不确定性。"
+            }
+          },
+          "data_perspective": {
+            "trend_status": {
+              "ma_alignment": "MA5(84.48) > MA10(83.62) > MA20(79.33)，均线呈标准多头排列，且均线间距有扩大趋势，显示多头趋势强劲。",
+              "is_bullish": true,
+              "trend_score": 85
+            },
+            "price_position": {
+              "current_price": 88.52,
+              "ma5": 84.48,
+              "ma10": 83.62,
+              "ma20": 79.33,
+              "bias_ma5": 4.78,
+              "bias_status": "警戒",
+              "support_level": 84.48,
+              "resistance_level": 92.47
+            },
+            "volume_analysis": {
+              "volume_ratio": 1.73,
+              "volume_status": "放量",
+              "turnover_rate": 9.22,
+              "volume_meaning": "今日股价大幅上涨8.22%，量比温和放大，显示资金活跃，但非极致放量，配合上涨趋势。"
+            },
+            "chip_structure": {
+              "profit_ratio": 95.5,
+              "avg_cost": 79.81,
+              "concentration": 11.23,
+              "chip_health": "警惕"
+            }
+          },
+          "intelligence": {
+            "latest_news": "【最新消息】云天励飞：部分董事、高级管理人员减持股份。",
+            "risk_alerts": [
+              "董事、高级管理人员减持股份，可能对股价造成短期压力。",
+              "获利比例高达95.5%，面临巨大的获利回吐风险。",
+              "公司市盈率(动态)为负值，表明目前处于亏损状态，基本面支撑仍需观察。"
+            ],
+            "positive_catalysts": [
+              "公司作为AI芯片及解决方案提供商，受益于人工智能产业的长期发展趋势。"
+            ],
+            "earnings_outlook": "公司目前市盈率(动态)为-80.14，处于亏损状态，短期内业绩压力较大，需持续关注后续财报表现。",
+            "sentiment_summary": "市场对AI概念股仍有关注，但高管减持和高获利盘引发短期担忧，情绪偏向谨慎乐观。"
+          },
+          "battle_plan": {
+            "sniper_points": {
+              "ideal_buy": "理想买入点：等待缩量回踩MA5附近（约84.50元）企稳，规避追高风险。",
+              "secondary_buy": "次优买入点：等待回踩MA10附近（约83.60元）获得支撑。",
+              "stop_loss": "止损位：跌破MA20（79.33元）或亏损5%（约84.09元）",
+              "take_profit": "目标位：95.00元（前高附近，需观察量能和抛压）"
+            },
+            "position_strategy": {
+              "suggested_position": "0成（空仓观望）",
+              "entry_plan": "当前不建议建仓。若风险释放后股价企稳，可考虑小仓位试探性介入，并严格控制仓位。",
+              "risk_control": "严格遵守止损纪律，分批建仓以降低成本风险。密切关注高管减持后续动态及获利盘抛售情况。"
+            },
+            "action_checklist": [
+              "✅ 检查项1：多头排列 (MA5 > MA10 > MA20)",
+              "⚠️ 检查项2：乖离率<5% (4.78%，接近警戒线，不满足最佳买点)",
+              "✅ 检查项3：量能配合 (温和放量上涨)",
+              "❌ 检查项4：无重大利空 (存在高管减持风险)",
+              "⚠️ 检查项5：筹码健康 (获利盘极高，健康度存疑)"
+            ]
+          }
+        },
+        "trend_analysis": "该股目前处于明显的上升趋势中，均线系统呈完美多头排列，MA5、MA10、MA20均线向上发散，显示中短期趋势强劲。今日股价放量上涨，进一步确认了多头趋势。",
+        "short_term_outlook": "短期内，由于今日股价上涨幅度较大，且乖离率偏高，加上高获利盘和高管减持的压力，股价存在回调或震荡整固的可能。若能缩量回调至MA5或MA10并获得支撑，则趋势有望延续；反之，若放量下跌，需警惕趋势反转风险。",
+        "medium_term_outlook": "中期来看，只要MA5不有效跌破MA10，多头趋势仍将维持。但上方获利盘的兑现压力将是股价上涨的主要阻力。需关注是否有新的利好消息或资金持续流入来消化抛压。",
+        "technical_analysis": "技术面显示，云天励飞-U今日放量上涨，K线实体饱满，突破近期震荡区间。均线系统呈标准多头排列，MA5上穿MA10，MA10上穿MA20，均线间距拉大，多头动能强劲。但股价已脱离MA5较远，存在技术性回调需求。",
+        "ma_analysis": "MA5(84.48) > MA10(83.62) > MA20(79.33)，多头排列清晰，MA线发散向上，趋势良好。MA5作为短期支撑，MA10作为次级支撑，MA20为中线生命线。",
+        "volume_analysis": "今日成交量较昨日放大2.17倍，量比1.73，属于温和放量。在股价大幅上涨时，量能配合良好，显示资金介入积极。换手率9.22%处于活跃水平。",
+        "pattern_analysis": "K线形态上，今日收出一根大阳线，吞噬了前几日的震荡K线，显示多头力量占据主导。但上方存在前高压力，且阳线实体过大，可能引发短期获利盘出逃。",
+        "fundamental_analysis": "公司市盈率(动态)为负值，表明目前处于亏损状态，基本面尚未形成强劲支撑。公司作为AI芯片研发商，所属行业具备长期成长潜力，但短期业绩压力较大。需关注公司研发投入、市场份额及盈利能力改善情况。",
+        "sector_position": "所属AI芯片及人工智能板块，是当前科技发展热点，政策支持力度大，市场关注度高。但板块内竞争激烈，公司需持续创新以保持竞争力。",
+        "company_highlights": "【亮点】AI芯片及解决方案领先企业，受益于人工智能产业发展。 【风险】持续亏损，高管减持，面临技术迭代和市场竞争压力。",
+        "news_summary": "近期主要消息是公司部分董事、高级管理人员减持股份，这通常被市场解读为利空。未发现其他明确的利好消息或业绩预告。",
+        "market_sentiment": "市场对人工智能概念股保持较高热情，但对个股的基本面和短期风险（如高管减持、高估值）开始更为关注。情绪偏向谨慎乐观。",
+        "hot_topics": "人工智能、AI芯片、大模型、算力基础设施。",
+        "analysis_summary": "云天励飞-U当前技术面呈现强劲多头排列，股价站稳各均线之上，显示短期趋势强势。然而，当前股价偏离MA5已接近5%警戒线，且获利盘高达95.5%，结合董事高管减持消息，短期内面临较大的获利回吐及抛压风险。建议空仓者观望，等待股价健康回调至支撑位再考虑介入；持仓者应警惕风险，可考虑减仓或上移止损以锁定利润。",
+        "key_points": "多头排列,乖离率偏高,高获利盘,高管减持,观望为主",
+        "risk_warning": "当前股价乖离率接近5%，存在短期回调风险。董事、高级管理人员减持股份可能引发市场担忧。获利盘过高，需警惕资金兑现利润导致股价回落。公司目前仍处于亏损状态，基本面支撑仍需观察。",
+        "buy_reason": "不建议当前买入，因股价偏离MA5接近5%警戒线，不符合严进策略中的最佳买点。同时，获利盘比例极高以及高管减持构成重大风险，短期内不宜追高。",
+        "search_performed": true,
+        "success": true,
+        "error_message": null
+      },
+      "report_content": "# 🎯 2026-01-21 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## 🟡 云天励飞-U (688343)\n\n### 📰 重要信息速览\n\n**💭 舆情情绪**: 市场对AI概念股仍有关注，但高管减持和高获利盘引发短期担忧，情绪偏向谨慎乐观。\n**📊 业绩预期**: 公司目前市盈率(动态)为-80.14，处于亏损状态，短期内业绩压力较大，需持续关注后续财报表现。\n\n**🚨 风险警报**:\n- 董事、高级管理人员减持股份，可能对股价造成短期压力。\n- 获利比例高达95.5%，面临巨大的获利回吐风险。\n- 公司市盈率(动态)为负值，表明目前处于亏损状态，基本面支撑仍需观察。\n\n**✨ 利好催化**:\n- 公司作为AI芯片及解决方案提供商，受益于人工智能产业的长期发展趋势。\n\n**📢 最新动态**: 【最新消息】云天励飞：部分董事、高级管理人员减持股份。\n\n### 📌 核心结论\n\n**🟡 持有** | 看多\n\n> **一句话决策**: 云天励飞-U趋势强势，但乖离率高、获利盘大且高管减持，建议观望。\n\n⏰ **时效性**: 不急\n\n| 持仓情况 | 操作建议 |\n|---------|---------|\n| 🆕 **空仓者** | 空仓者建议等待股价缩量回踩MA5或MA10企稳后再考虑介入，规避短期回调风险。 |\n| 💼 **持仓者** | 持仓者建议关注获利盘兑现压力，可考虑适当减仓锁定利润，或将止损位上移至MA10，警惕高管减持带来的不确定性。 |\n\n### 📊 数据透视\n\n**均线排列**: MA5(84.48) > MA10(83.62) > MA20(79.33)，均线呈标准多头排列，且均线间距有扩大趋势，显示多头趋势强劲。 | 多头排列: ✅ 是 | 趋势强度: 85/100\n\n| 价格指标 | 数值 |\n|---------|------|\n| 当前价 | 88.52 |\n| MA5 | 84.48 |\n| MA10 | 83.62 |\n| MA20 | 79.33 |\n| 乖离率(MA5) | 4.78% ⚠️警戒 |\n| 支撑位 | 84.48 |\n| 压力位 | 92.47 |\n\n**量能**: 量比 1.73 (放量) | 换手率 9.22%\n💡 *今日股价大幅上涨8.22%，量比温和放大，显示资金活跃，但非极致放量，配合上涨趋势。*\n\n**筹码**: 获利比例 95.5 | 平均成本 79.81 | 集中度 11.23 🚨警惕\n\n### 🎯 作战计划\n\n**📍 狙击点位**\n\n| 点位类型 | 价格 |\n|---------|------|\n| 🎯 理想买入点 | 理想买入点：等待缩量回踩MA5附近（约84.50元）企稳，规避追高风险。 |\n| 🔵 次优买入点 | 次优买入点：等待回踩MA10附近（约83.60元）获得支撑。 |\n| 🛑 止损位 | 止损位：跌破MA20（79.33元）或亏损5%（约84.09元） |\n| 🎊 目标位 | 目标位：95.00元（前高附近，需观察量能和抛压） |\n\n**💰 仓位建议**: 0成（空仓观望）\n- 建仓策略: 当前不建议建仓。若风险释放后股价企稳，可考虑小仓位试探性介入，并严格控制仓位。\n- 风控策略: 严格遵守止损纪律，分批建仓以降低成本风险。密切关注高管减持后续动态及获利盘抛售情况。\n\n**✅ 检查清单**\n\n- ✅ 检查项1：多头排列 (MA5 > MA10 > MA20)\n- ⚠️ 检查项2：乖离率<5% (4.78%，接近警戒线，不满足最佳买点)\n- ✅ 检查项3：量能配合 (温和放量上涨)\n- ❌ 检查项4：无重大利空 (存在高管减持风险)\n- ⚠️ 检查项5：筹码健康 (获利盘极高，健康度存疑)\n\n---\n\n\n*报告生成时间：2026-01-21 10:32:28*",
+      "created_at": "2026-01-21T10:32:28.890662"
+    },
+    {
+      "id": 1,
+      "code": "300059",
+      "name": "东方财富",
+      "analysis_date": "2026-01-21",
+      "sentiment_score": 50,
+      "trend_prediction": "震荡",
+      "operation_advice": "持有",
+      "confidence_level": "低",
+      "analysis_data": {
+        "code": "300059",
+        "name": "东方财富",
+        "sentiment_score": 50,
+        "trend_prediction": "震荡",
+        "operation_advice": "持有",
+        "confidence_level": "低",
+        "dashboard": null,
+        "trend_analysis": "",
+        "short_term_outlook": "",
+        "medium_term_outlook": "",
+        "technical_analysis": "",
+        "ma_analysis": "",
+        "volume_analysis": "",
+        "pattern_analysis": "",
+        "fundamental_analysis": "",
+        "sector_position": "",
+        "company_highlights": "",
+        "news_summary": "",
+        "market_sentiment": "",
+        "hot_topics": "",
+        "analysis_summary": "分析过程出错: 429 You exceeded your current quota, please check your plan and billing details. For more informatio",
+        "key_points": "",
+        "risk_warning": "分析失败，请稍后重试或手动分析",
+        "buy_reason": "",
+        "search_performed": false,
+        "success": false,
+        "error_message": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 56.589579567s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 56\n}\n]"
+      },
+      "report_content": "# 🎯 2026-01-21 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## 🟡 东方财富 (300059)\n\n### 📌 核心结论\n\n**🟡 持有** | 震荡\n\n> **一句话决策**: 分析过程出错: 429 You exceeded your current quota, please check your plan and billing details. For more informatio\n\n⏰ **时效性**: 本周内\n\n**⚠️ 风险提示**: 分析失败，请稍后重试或手动分析\n\n---\n\n\n*报告生成时间：2026-01-21 10:32:28*",
+      "created_at": "2026-01-21T10:32:28.887716"
+    },
+    {
+      "id": 4,
+      "code": "002415",
+      "name": "海康威视",
+      "analysis_date": "2026-01-21",
+      "sentiment_score": 50,
+      "trend_prediction": "震荡",
+      "operation_advice": "持有",
+      "confidence_level": "低",
+      "analysis_data": {
+        "code": "002415",
+        "name": "海康威视",
+        "sentiment_score": 50,
+        "trend_prediction": "震荡",
+        "operation_advice": "持有",
+        "confidence_level": "低",
+        "dashboard": null,
+        "trend_analysis": "",
+        "short_term_outlook": "",
+        "medium_term_outlook": "",
+        "technical_analysis": "",
+        "ma_analysis": "",
+        "volume_analysis": "",
+        "pattern_analysis": "",
+        "fundamental_analysis": "",
+        "sector_position": "",
+        "company_highlights": "",
+        "news_summary": "",
+        "market_sentiment": "",
+        "hot_topics": "",
+        "analysis_summary": "分析过程出错: 429 You exceeded your current quota, please check your plan and billing details. For more informatio",
+        "key_points": "",
+        "risk_warning": "分析失败，请稍后重试或手动分析",
+        "buy_reason": "",
+        "search_performed": false,
+        "success": false,
+        "error_message": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 58.713013042s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 58\n}\n]"
+      },
+      "report_content": "# 🎯 2026-01-21 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## 🟡 海康威视 (002415)\n\n### 📌 核心结论\n\n**🟡 持有** | 震荡\n\n> **一句话决策**: 分析过程出错: 429 You exceeded your current quota, please check your plan and billing details. For more informatio\n\n⏰ **时效性**: 本周内\n\n**⚠️ 风险提示**: 分析失败，请稍后重试或手动分析\n\n---\n\n\n*报告生成时间：2026-01-21 10:32:28*",
+      "created_at": "2026-01-21T10:32:28.897940"
+    },
+    {
+      "id": 5,
+      "code": "688303",
+      "name": "股票688303",
+      "analysis_date": "2026-01-21",
+      "sentiment_score": 50,
+      "trend_prediction": "震荡",
+      "operation_advice": "持有",
+      "confidence_level": "低",
+      "analysis_data": {
+        "code": "688303",
+        "name": "股票688303",
+        "sentiment_score": 50,
+        "trend_prediction": "震荡",
+        "operation_advice": "持有",
+        "confidence_level": "低",
+        "dashboard": null,
+        "trend_analysis": "",
+        "short_term_outlook": "",
+        "medium_term_outlook": "",
+        "technical_analysis": "",
+        "ma_analysis": "",
+        "volume_analysis": "",
+        "pattern_analysis": "",
+        "fundamental_analysis": "",
+        "sector_position": "",
+        "company_highlights": "",
+        "news_summary": "",
+        "market_sentiment": "",
+        "hot_topics": "",
+        "analysis_summary": "分析过程出错: 429 Resource has been exhausted (e.g. check quota).",
+        "key_points": "",
+        "risk_warning": "分析失败，请稍后重试或手动分析",
+        "buy_reason": "",
+        "search_performed": false,
+        "success": false,
+        "error_message": "429 Resource has been exhausted (e.g. check quota)."
+      },
+      "report_content": "# 🎯 2026-01-21 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## 🟡 股票688303 (688303)\n\n### 📌 核心结论\n\n**🟡 持有** | 震荡\n\n> **一句话决策**: 分析过程出错: 429 Resource has been exhausted (e.g. check quota).\n\n⏰ **时效性**: 本周内\n\n**⚠️ 风险提示**: 分析失败，请稍后重试或手动分析\n\n---\n\n\n*报告生成时间：2026-01-21 10:32:28*",
+      "created_at": "2026-01-21T10:32:28.900926"
+    },
+    {
+      "id": 6,
+      "code": "300360",
+      "name": "股票300360",
+      "analysis_date": "2026-01-21",
+      "sentiment_score": 50,
+      "trend_prediction": "震荡",
+      "operation_advice": "持有",
+      "confidence_level": "低",
+      "analysis_data": {
+        "code": "300360",
+        "name": "股票300360",
+        "sentiment_score": 50,
+        "trend_prediction": "震荡",
+        "operation_advice": "持有",
+        "confidence_level": "低",
+        "dashboard": null,
+        "trend_analysis": "",
+        "short_term_outlook": "",
+        "medium_term_outlook": "",
+        "technical_analysis": "",
+        "ma_analysis": "",
+        "volume_analysis": "",
+        "pattern_analysis": "",
+        "fundamental_analysis": "",
+        "sector_position": "",
+        "company_highlights": "",
+        "news_summary": "",
+        "market_sentiment": "",
+        "hot_topics": "",
+        "analysis_summary": "分析过程出错: 429 Resource has been exhausted (e.g. check quota).",
+        "key_points": "",
+        "risk_warning": "分析失败，请稍后重试或手动分析",
+        "buy_reason": "",
+        "search_performed": false,
+        "success": false,
+        "error_message": "429 Resource has been exhausted (e.g. check quota)."
+      },
+      "report_content": "# 🎯 2026-01-21 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## 🟡 股票300360 (300360)\n\n### 📌 核心结论\n\n**🟡 持有** | 震荡\n\n> **一句话决策**: 分析过程出错: 429 Resource has been exhausted (e.g. check quota).\n\n⏰ **时效性**: 本周内\n\n**⚠️ 风险提示**: 分析失败，请稍后重试或手动分析\n\n---\n\n\n*报告生成时间：2026-01-21 10:32:28*",
+      "created_at": "2026-01-21T10:32:28.902821"
+    },
+    {
+      "id": 3,
+      "code": "688322",
+      "name": "奥比中光-UW",
+      "analysis_date": "2026-01-21",
+      "sentiment_score": 45,
+      "trend_prediction": "震荡",
+      "operation_advice": "观望",
+      "confidence_level": "中",
+      "analysis_data": {
+        "code": "688322",
+        "name": "奥比中光-UW",
+        "sentiment_score": 45,
+        "trend_prediction": "震荡",
+        "operation_advice": "观望",
+        "confidence_level": "中",
+        "dashboard": {
+          "core_conclusion": {
+            "one_sentence": "技术面多头排列但盈利能力堪忧且获利盘高，建议观望。",
+            "signal_type": "🟡持有观望",
+            "time_sensitivity": "不急",
+            "position_advice": {
+              "no_position": "空仓者建议：暂不建议介入，等待基本面改善或风险释放，警惕高位回落风险。",
+              "has_position": "持仓者建议：考虑逢高减仓，或以MA20（91.59元）作为止损位，警惕获利回吐及业绩风险。"
+            }
+          },
+          "data_perspective": {
+            "trend_status": {
+              "ma_alignment": "MA5(98.62) > MA10(95.61) > MA20(91.59)，多头排列清晰，均线间距扩大，趋势强度较好。",
+              "is_bullish": true,
+              "trend_score": 75
+            },
+            "price_position": {
+              "current_price": 101.5,
+              "ma5": 98.62,
+              "ma10": 95.61,
+              "ma20": 91.59,
+              "bias_ma5": 2.92,
+              "bias_status": "警戒",
+              "support_level": 98.62,
+              "resistance_level": 104.87
+            },
+            "volume_analysis": {
+              "volume_ratio": 0.75,
+              "volume_status": "缩量",
+              "turnover_rate": 2.63,
+              "volume_meaning": "股价上涨伴随量比萎缩，表明买盘动力不足，或有惜售情绪，但结合高获利盘，需警惕上涨动能衰竭及获利回吐风险。"
+            },
+            "chip_structure": {
+              "profit_ratio": 94.8,
+              "avg_cost": 87.64,
+              "concentration": 12.63,
+              "chip_health": "警惕"
+            }
+          },
+          "intelligence": {
+            "latest_news": "【最新消息】AI眼镜到高阶智驾：CES释放电子产业链多终端进化信号，奥比中光作为物理AI硬件厂商有望受益。",
+            "risk_alerts": [
+              "公司盈利摘要显示营业利润率、销售净利润率和加权净资产收益率均为负值，表明公司目前盈利能力堪忧，存在重大基本面风险。",
+              "获利比例高达94.8%，远超90%警戒线，需高度警惕获利盘集中回吐风险。",
+              "现价101.5元高于平均成本87.64元达15.8%，略超健康区间（5-15%），存在回调压力。"
+            ],
+            "positive_catalysts": [
+              "全球CES展释放AI硬件多终端进化信号，公司所处赛道前景广阔。",
+              "公司在物理AI硬件领域具有技术优势和发展潜力。"
+            ],
+            "earnings_outlook": "根据盈利摘要，公司目前处于亏损状态，盈利能力存在重大不确定性。",
+            "sentiment_summary": "市场对AI硬件前景持乐观态度，但投资者需警惕公司自身盈利能力的不足和高获利盘带来的短期回调风险。"
+          },
+          "battle_plan": {
+            "sniper_points": {
+              "ideal_buy": "暂无理想买入点，建议观望，规避基本面风险。",
+              "secondary_buy": "暂无次优买入点，建议观望，等待风险释放。",
+              "stop_loss": "91.00元（跌破MA20）",
+              "take_profit": "暂无明确目标位，风险规避优先。"
+            },
+            "position_strategy": {
+              "suggested_position": "0成（空仓者）/ 建议减仓（持仓者）",
+              "entry_plan": "不建议新建仓位，等待公司基本面改善或股价深度回调至合理估值区域。",
+              "risk_control": "严格遵守止损纪律，关注公司业绩报告，警惕获利盘高位兑现风险。"
+            },
+            "action_checklist": [
+              "✅ 检查项1：多头排列 (MA5>MA10>MA20)",
+              "✅ 检查项2：乖离率<5% (2.92%在2-5%区间，可小仓介入，但有警戒)",
+              "⚠️ 检查项3：量能配合 (缩量上涨，配合高乖离率和高获利盘，量能配合度降低)",
+              "❌ 检查项4：无重大利空 (公司盈利能力差是重大利空)",
+              "⚠️ 检查项5：筹码健康 (获利盘极高，需警惕)"
+            ]
+          }
+        },
+        "trend_analysis": "股票目前处于多头排列，MA5、MA10、MA20均线向上发散，显示中短期上升趋势强劲。今日股价上涨1.51%，但量比萎缩至0.75，显示上涨动能有所减弱。",
+        "short_term_outlook": "短期内，股价可能继续沿着MA5上方运行，但由于量能不足和获利盘压力，上涨空间或受限，存在回踩MA5寻求支撑的可能性。",
+        "medium_term_outlook": "中期趋势仍偏多，但若公司基本面（盈利能力）未能改善，或市场情绪发生变化，股价可能面临较大的调整压力，MA20是重要的中长期支撑位。",
+        "technical_analysis": "K线形态显示股价在均线上方运行，多头排列稳固。但今日涨幅伴随缩量，MACD等指标或显示动能减弱迹象，需警惕短期调整。RSI等超买指标可能提示短期超买。",
+        "ma_analysis": "均线系统呈标准多头排列，MA5、MA10、MA20均线向上发散，且MA5与MA10、MA10与MA20之间间距适中并有扩大趋势，表明上升趋势健康。当前股价位于MA5上方，但乖离率2.92%已进入警戒区。",
+        "volume_analysis": "今日成交量较昨日萎缩，量比0.75，换手率2.63%。缩量上涨表明多方力量略显不足，或因获利盘高企导致资金追涨意愿降低，需警惕无量上涨后的回调风险。",
+        "pattern_analysis": "K线形态为小阳线，表明多方占据优势，但未形成强势攻击性K线。需关注后续K线形态是否能有效放量突破，否则可能形成顶部滞涨形态。",
+        "fundamental_analysis": "公司盈利能力极差，营业利润率和销售净利润率均为负值，基本面存在严重缺陷。尽管所属AI硬件赛道前景广阔，但公司自身业绩表现是重大风险点。",
+        "sector_position": "奥比中光-UW属于AI视觉、智能硬件等热门概念板块，受AI产业发展利好驱动。在当前市场热点中具有一定关注度。",
+        "company_highlights": "公司在3D视觉感知技术领域具有领先优势，产品应用场景广泛，受益于AI、XR、智能驾驶等新兴产业发展。但核心风险在于其持续亏损的盈利状况。",
+        "news_summary": "近期公司新闻主要围绕AI硬件产业发展和CES展会，市场对其技术前景有一定预期。但未见公司自身业绩改善或重大合作利好，且盈利摘要显示财务状况不佳。",
+        "market_sentiment": "市场对AI概念股热情较高，但对于基本面不佳的个股，情绪可能存在分化。奥比中光-UW面临技术面乐观与基本面悲观的矛盾情绪。",
+        "hot_topics": "AI硬件、3D视觉、智能驾驶、机器人、CES",
+        "analysis_summary": "奥比中光-UW技术面呈现清晰的多头排列，且股价相对MA5乖离率在可接受范围。然而，公司盈利能力持续为负，基本面存在重大风险。同时，高达94.8%的获利比例预示着潜在的获利回吐压力。尽管AI硬件概念受市场追捧，但鉴于公司盈利状况和筹码结构风险，建议投资者谨慎观望，不宜盲目追高，规避潜在风险。",
+        "key_points": "多头排列,盈利堪忧,获利盘高,缩量上涨,观望",
+        "risk_warning": "公司持续亏损的盈利状况构成重大基本面风险；高获利比例导致的回调压力不容忽视；缩量上涨可能预示动能不足。请投资者务必关注公司后续财报及市场情绪变化。",
+        "buy_reason": "当前不建议买入。尽管技术面呈现多头排列，但公司盈利能力极差，不符合效率优先原则中的健康基本面要求。同时，乖离率虽在5%以下，但已处于2-5%的警戒区间，且获利盘过高，买点不佳，风险排查显示有重大利空（业绩预亏），不满足严进策略和风险排查要求。",
+        "search_performed": true,
+        "success": true,
+        "error_message": null
+      },
+      "report_content": "# 🎯 2026-01-21 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## ⚪ 奥比中光-UW (688322)\n\n### 📰 重要信息速览\n\n**💭 舆情情绪**: 市场对AI硬件前景持乐观态度，但投资者需警惕公司自身盈利能力的不足和高获利盘带来的短期回调风险。\n**📊 业绩预期**: 根据盈利摘要，公司目前处于亏损状态，盈利能力存在重大不确定性。\n\n**🚨 风险警报**:\n- 公司盈利摘要显示营业利润率、销售净利润率和加权净资产收益率均为负值，表明公司目前盈利能力堪忧，存在重大基本面风险。\n- 获利比例高达94.8%，远超90%警戒线，需高度警惕获利盘集中回吐风险。\n- 现价101.5元高于平均成本87.64元达15.8%，略超健康区间（5-15%），存在回调压力。\n\n**✨ 利好催化**:\n- 全球CES展释放AI硬件多终端进化信号，公司所处赛道前景广阔。\n- 公司在物理AI硬件领域具有技术优势和发展潜力。\n\n**📢 最新动态**: 【最新消息】AI眼镜到高阶智驾：CES释放电子产业链多终端进化信号，奥比中光作为物理AI硬件厂商有望受益。\n\n### 📌 核心结论\n\n**⚪ 观望** | 震荡\n\n> **一句话决策**: 技术面多头排列但盈利能力堪忧且获利盘高，建议观望。\n\n⏰ **时效性**: 不急\n\n| 持仓情况 | 操作建议 |\n|---------|---------|\n| 🆕 **空仓者** | 空仓者建议：暂不建议介入，等待基本面改善或风险释放，警惕高位回落风险。 |\n| 💼 **持仓者** | 持仓者建议：考虑逢高减仓，或以MA20（91.59元）作为止损位，警惕获利回吐及业绩风险。 |\n\n### 📊 数据透视\n\n**均线排列**: MA5(98.62) > MA10(95.61) > MA20(91.59)，多头排列清晰，均线间距扩大，趋势强度较好。 | 多头排列: ✅ 是 | 趋势强度: 75/100\n\n| 价格指标 | 数值 |\n|---------|------|\n| 当前价 | 101.5 |\n| MA5 | 98.62 |\n| MA10 | 95.61 |\n| MA20 | 91.59 |\n| 乖离率(MA5) | 2.92% ⚠️警戒 |\n| 支撑位 | 98.62 |\n| 压力位 | 104.87 |\n\n**量能**: 量比 0.75 (缩量) | 换手率 2.63%\n💡 *股价上涨伴随量比萎缩，表明买盘动力不足，或有惜售情绪，但结合高获利盘，需警惕上涨动能衰竭及获利回吐风险。*\n\n**筹码**: 获利比例 94.8 | 平均成本 87.64 | 集中度 12.63 🚨警惕\n\n### 🎯 作战计划\n\n**📍 狙击点位**\n\n| 点位类型 | 价格 |\n|---------|------|\n| 🎯 理想买入点 | 暂无理想买入点，建议观望，规避基本面风险。 |\n| 🔵 次优买入点 | 暂无次优买入点，建议观望，等待风险释放。 |\n| 🛑 止损位 | 91.00元（跌破MA20） |\n| 🎊 目标位 | 暂无明确目标位，风险规避优先。 |\n\n**💰 仓位建议**: 0成（空仓者）/ 建议减仓（持仓者）\n- 建仓策略: 不建议新建仓位，等待公司基本面改善或股价深度回调至合理估值区域。\n- 风控策略: 严格遵守止损纪律，关注公司业绩报告，警惕获利盘高位兑现风险。\n\n**✅ 检查清单**\n\n- ✅ 检查项1：多头排列 (MA5>MA10>MA20)\n- ✅ 检查项2：乖离率<5% (2.92%在2-5%区间，可小仓介入，但有警戒)\n- ⚠️ 检查项3：量能配合 (缩量上涨，配合高乖离率和高获利盘，量能配合度降低)\n- ❌ 检查项4：无重大利空 (公司盈利能力差是重大利空)\n- ⚠️ 检查项5：筹码健康 (获利盘极高，需警惕)\n\n---\n\n\n*报告生成时间：2026-01-21 10:32:28*",
+      "created_at": "2026-01-21T10:32:28.894094"
+    }
+  ],
+  "last_update": "2026-01-21T10:32:28.890662"
+}
