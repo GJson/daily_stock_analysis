@@ -1,1 +1,406 @@
-{"success": true, "stocks": [], "stats": {"total": 0, "buy": 0, "hold": 0, "sell": 0, "avg_score": 0}}
+{
+  "success": true,
+  "date": "2026-02-19",
+  "stats": {
+    "total": 6,
+    "buy": 0,
+    "hold": 5,
+    "sell": 0,
+    "avg_score": 47.2
+  },
+  "stocks": [
+    {
+      "id": 1,
+      "code": "688322",
+      "name": "奥比中光-UW",
+      "analysis_date": "2026-02-19",
+      "sentiment_score": 68,
+      "trend_prediction": "看多",
+      "operation_advice": "持有/加仓",
+      "confidence_level": "中",
+      "analysis_data": {
+        "code": "688322",
+        "name": "奥比中光-UW",
+        "sentiment_score": 68,
+        "trend_prediction": "看多",
+        "operation_advice": "持有/加仓",
+        "confidence_level": "中",
+        "dashboard": {
+          "core_conclusion": {
+            "one_sentence": "业绩扭亏驱动股价放量站稳MA20，乖离率安全，建议回踩MA5逢低布局。",
+            "signal_type": "🟢买入信号",
+            "time_sensitivity": "今日内",
+            "position_advice": {
+              "no_position": "乖离率2.55%处于安全区，可在94.4-95.5元区间分批建仓。",
+              "has_position": "现价已突破MA20压力，建议持股待涨，若放量突破100元关口可加仓。"
+            }
+          },
+          "data_perspective": {
+            "trend_status": {
+              "ma_alignment": "均线系统正由缠绕转为多头初期，现价已站上所有短期均线",
+              "is_bullish": false,
+              "trend_score": 65
+            },
+            "price_position": {
+              "current_price": 96.77,
+              "ma5": 94.36,
+              "ma10": 92.73,
+              "ma20": 96.31,
+              "bias_ma5": 2.55,
+              "bias_status": "安全",
+              "support_level": 94.36,
+              "resistance_level": 105.2
+            },
+            "volume_analysis": {
+              "volume_ratio": 1.12,
+              "volume_status": "放量",
+              "turnover_rate": 2.24,
+              "volume_meaning": "温和放量突破MA20压力位，显示主力尝试向上变盘，抛压尚在可控范围。"
+            },
+            "chip_structure": {
+              "profit_ratio": 81.3,
+              "avg_cost": 91.05,
+              "concentration": 13.1,
+              "chip_health": "健康"
+            }
+          },
+          "intelligence": {
+            "latest_news": "【重要公告】奥比中光2025年预计实现扭亏为盈，归母净利润约1.23亿元，基本面发生质变。",
+            "risk_alerts": [
+              "科创板个股波动较大，需防范市场情绪波动风险",
+              "UW标识代表尚未盈利且同股不同权，虽预期扭亏但仍需关注最终财报确认"
+            ],
+            "positive_catalysts": [
+              "2025年度业绩预盈，摘帽预期升温",
+              "3D视觉感知技术在机器人、刷脸支付领域应用持续渗透"
+            ],
+            "earnings_outlook": "业绩拐点已现，随着机器人产业化加速，公司作为核心传感器供应商受益明显。",
+            "sentiment_summary": "市场对业绩扭亏反应积极，目前处于低位反弹后的趋势确立期。"
+          },
+          "battle_plan": {
+            "sniper_points": {
+              "ideal_buy": "94.36元（精确回踩MA5支撑）",
+              "secondary_buy": "96.31元（回踩MA20确认支撑）",
+              "stop_loss": "91.00元（跌破平均成本及MA10）",
+              "take_profit": "108.50元（前期高点压力位附近）"
+            },
+            "position_strategy": {
+              "suggested_position": "4成",
+              "entry_plan": "首笔2成在96元附近介入，若缩量回踩94.5元附近补仓2成。",
+              "risk_control": "若收盘价有效跌破MA10（92.73元）则需减仓避险。"
+            },
+            "action_checklist": [
+              "⚠️ 检查项1：多头排列（MA5>MA10，但MA20尚未下穿，处于转向期）",
+              "✅ 检查项2：乖离率<5%（当前2.55%，无追高风险）",
+              "✅ 检查项3：量能配合（量价齐升，突破压力位）",
+              "✅ 检查项4：无重大利空（业绩预盈，无减持公告）",
+              "✅ 检查项5：筹码健康（集中度13.1%<15%，主力控盘良好）"
+            ]
+          }
+        },
+        "trend_analysis": "日线级别走出‘W底’突破形态，目前处于突破颈线后的回抽确认阶段。",
+        "short_term_outlook": "预计短期将在94-98元区间震荡整固，蓄势冲击100元大关。",
+        "medium_term_outlook": "中期趋势随着业绩反转确立，有望挑战110-120元历史密集交易区。",
+        "technical_analysis": "均线系统正在修复，MA5、MA10已拐头向上，MACD金叉发散，多头动能增强。",
+        "ma_analysis": "MA5(94.36)形成短期支撑，MA20(96.31)由压力转为支撑，均线多头排列呼之欲出。",
+        "volume_analysis": "成交量温和放大，换手率2.24%显示筹码交换充分且无过度投机迹象。",
+        "pattern_analysis": "K线实体重心上移，连续多日站稳均线密集区，属于典型的趋势右侧起点。",
+        "fundamental_analysis": "3D感知核心技术领先，业绩扭亏标志着商业化变现进入收获期。",
+        "sector_position": "作为机器人产业链上游核心标的，具有较高的行业稀缺性和弹性。",
+        "company_highlights": "自研芯片+全技术路线布局，深度绑定头部机器人客户。",
+        "news_summary": "近期无负面公告，投资者关系活动显示机构关注度持续提升。",
+        "market_sentiment": "情绪回暖，资金开始向有业绩支撑的硬科技板块回流。",
+        "hot_topics": "人形机器人、具身智能、业绩预增",
+        "analysis_summary": "奥比中光-UW当前呈现技术面与基本面共振。基本面上，2025年业绩预盈是重大利好，有望改善品种估值；技术面上，股价放量站上MA20关键压力位，且乖离率仅2.55%，处于理想的介入区间。筹码高度集中，获利盘虽达81%，但现价仅高于平均成本6%，上行空间尚未完全打开。",
+        "key_points": "业绩扭亏为盈,站稳MA20,乖离率安全,机器人视觉龙头",
+        "risk_warning": "需警惕业绩确认前的市场波动及科创板整体流动性风险。",
+        "buy_reason": "符合‘严进策略’，乖离率<5%且回踩支撑明确，基本面反转驱动趋势向上。",
+        "search_performed": true,
+        "success": true,
+        "error_message": null
+      },
+      "report_content": "# 🎯 2026-02-19 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:0 🔴卖出:0\n\n---\n\n## 🟢 奥比中光-UW (688322)\n\n### 📰 重要信息速览\n\n**💭 舆情情绪**: 市场对业绩扭亏反应积极，目前处于低位反弹后的趋势确立期。\n**📊 业绩预期**: 业绩拐点已现，随着机器人产业化加速，公司作为核心传感器供应商受益明显。\n\n**🚨 风险警报**:\n- 科创板个股波动较大，需防范市场情绪波动风险\n- UW标识代表尚未盈利且同股不同权，虽预期扭亏但仍需关注最终财报确认\n\n**✨ 利好催化**:\n- 2025年度业绩预盈，摘帽预期升温\n- 3D视觉感知技术在机器人、刷脸支付领域应用持续渗透\n\n**📢 最新动态**: 【重要公告】奥比中光2025年预计实现扭亏为盈，归母净利润约1.23亿元，基本面发生质变。\n\n### 📌 核心结论\n\n**🟢 买入** | 看多\n\n> **一句话决策**: 业绩扭亏驱动股价放量站稳MA20，乖离率安全，建议回踩MA5逢低布局。\n\n⏰ **时效性**: 今日内\n\n| 持仓情况 | 操作建议 |\n|---------|---------|\n| 🆕 **空仓者** | 乖离率2.55%处于安全区，可在94.4-95.5元区间分批建仓。 |\n| 💼 **持仓者** | 现价已突破MA20压力，建议持股待涨，若放量突破100元关口可加仓。 |\n\n### 📊 数据透视\n\n**均线排列**: 均线系统正由缠绕转为多头初期，现价已站上所有短期均线 | 多头排列: ❌ 否 | 趋势强度: 65/100\n\n| 价格指标 | 数值 |\n|---------|------|\n| 当前价 | 96.77 |\n| MA5 | 94.36 |\n| MA10 | 92.73 |\n| MA20 | 96.31 |\n| 乖离率(MA5) | 2.55% ✅安全 |\n| 支撑位 | 94.36 |\n| 压力位 | 105.2 |\n\n**量能**: 量比 1.12 (放量) | 换手率 2.24%\n💡 *温和放量突破MA20压力位，显示主力尝试向上变盘，抛压尚在可控范围。*\n\n**筹码**: 获利比例 81.3 | 平均成本 91.05 | 集中度 13.1 ✅健康\n\n### 🎯 作战计划\n\n**📍 狙击点位**\n\n| 点位类型 | 价格 |\n|---------|------|\n| 🎯 理想买入点 | 94.36元（精确回踩MA5支撑） |\n| 🔵 次优买入点 | 96.31元（回踩MA20确认支撑） |\n| 🛑 止损位 | 91.00元（跌破平均成本及MA10） |\n| 🎊 目标位 | 108.50元（前期高点压力位附近） |\n\n**💰 仓位建议**: 4成\n- 建仓策略: 首笔2成在96元附近介入，若缩量回踩94.5元附近补仓2成。\n- 风控策略: 若收盘价有效跌破MA10（92.73元）则需减仓避险。\n\n**✅ 检查清单**\n\n- ⚠️ 检查项1：多头排列（MA5>MA10，但MA20尚未下穿，处于转向期）\n- ✅ 检查项2：乖离率<5%（当前2.55%，无追高风险）\n- ✅ 检查项3：量能配合（量价齐升，突破压力位）\n- ✅ 检查项4：无重大利空（业绩预盈，无减持公告）\n- ✅ 检查项5：筹码健康（集中度13.1%<15%，主力控盘良好）\n\n---\n\n\n*报告生成时间：2026-02-19 10:51:16*",
+      "created_at": "2026-02-19T10:51:16.695572"
+    },
+    {
+      "id": 2,
+      "code": "300059",
+      "name": "东方财富",
+      "analysis_date": "2026-02-19",
+      "sentiment_score": 50,
+      "trend_prediction": "震荡",
+      "operation_advice": "持有",
+      "confidence_level": "低",
+      "analysis_data": {
+        "code": "300059",
+        "name": "东方财富",
+        "sentiment_score": 50,
+        "trend_prediction": "震荡",
+        "operation_advice": "持有",
+        "confidence_level": "低",
+        "dashboard": null,
+        "trend_analysis": "",
+        "short_term_outlook": "",
+        "medium_term_outlook": "",
+        "technical_analysis": "",
+        "ma_analysis": "",
+        "volume_analysis": "",
+        "pattern_analysis": "",
+        "fundamental_analysis": "",
+        "sector_position": "",
+        "company_highlights": "",
+        "news_summary": "",
+        "market_sentiment": "",
+        "hot_topics": "",
+        "analysis_summary": "分析过程出错: 429 Resource has been exhausted (e.g. check quota).",
+        "key_points": "",
+        "risk_warning": "分析失败，请稍后重试或手动分析",
+        "buy_reason": "",
+        "search_performed": false,
+        "success": false,
+        "error_message": "429 Resource has been exhausted (e.g. check quota)."
+      },
+      "report_content": "# 🎯 2026-02-19 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## 🟡 东方财富 (300059)\n\n### 📌 核心结论\n\n**🟡 持有** | 震荡\n\n> **一句话决策**: 分析过程出错: 429 Resource has been exhausted (e.g. check quota).\n\n⏰ **时效性**: 本周内\n\n**⚠️ 风险提示**: 分析失败，请稍后重试或手动分析\n\n---\n\n\n*报告生成时间：2026-02-19 10:51:16*",
+      "created_at": "2026-02-19T10:51:16.698126"
+    },
+    {
+      "id": 3,
+      "code": "688343",
+      "name": "云天励飞-U",
+      "analysis_date": "2026-02-19",
+      "sentiment_score": 50,
+      "trend_prediction": "震荡",
+      "operation_advice": "持有",
+      "confidence_level": "低",
+      "analysis_data": {
+        "code": "688343",
+        "name": "云天励飞-U",
+        "sentiment_score": 50,
+        "trend_prediction": "震荡",
+        "operation_advice": "持有",
+        "confidence_level": "低",
+        "dashboard": null,
+        "trend_analysis": "",
+        "short_term_outlook": "",
+        "medium_term_outlook": "",
+        "technical_analysis": "",
+        "ma_analysis": "",
+        "volume_analysis": "",
+        "pattern_analysis": "",
+        "fundamental_analysis": "",
+        "sector_position": "",
+        "company_highlights": "",
+        "news_summary": "",
+        "market_sentiment": "",
+        "hot_topics": "",
+        "analysis_summary": "分析过程出错: 429 Resource has been exhausted (e.g. check quota).",
+        "key_points": "",
+        "risk_warning": "分析失败，请稍后重试或手动分析",
+        "buy_reason": "",
+        "search_performed": false,
+        "success": false,
+        "error_message": "429 Resource has been exhausted (e.g. check quota)."
+      },
+      "report_content": "# 🎯 2026-02-19 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## 🟡 云天励飞-U (688343)\n\n### 📌 核心结论\n\n**🟡 持有** | 震荡\n\n> **一句话决策**: 分析过程出错: 429 Resource has been exhausted (e.g. check quota).\n\n⏰ **时效性**: 本周内\n\n**⚠️ 风险提示**: 分析失败，请稍后重试或手动分析\n\n---\n\n\n*报告生成时间：2026-02-19 10:51:16*",
+      "created_at": "2026-02-19T10:51:16.700004"
+    },
+    {
+      "id": 4,
+      "code": "002415",
+      "name": "海康威视",
+      "analysis_date": "2026-02-19",
+      "sentiment_score": 50,
+      "trend_prediction": "震荡",
+      "operation_advice": "持有",
+      "confidence_level": "低",
+      "analysis_data": {
+        "code": "002415",
+        "name": "海康威视",
+        "sentiment_score": 50,
+        "trend_prediction": "震荡",
+        "operation_advice": "持有",
+        "confidence_level": "低",
+        "dashboard": null,
+        "trend_analysis": "",
+        "short_term_outlook": "",
+        "medium_term_outlook": "",
+        "technical_analysis": "",
+        "ma_analysis": "",
+        "volume_analysis": "",
+        "pattern_analysis": "",
+        "fundamental_analysis": "",
+        "sector_position": "",
+        "company_highlights": "",
+        "news_summary": "",
+        "market_sentiment": "",
+        "hot_topics": "",
+        "analysis_summary": "分析过程出错: 429 Resource has been exhausted (e.g. check quota).",
+        "key_points": "",
+        "risk_warning": "分析失败，请稍后重试或手动分析",
+        "buy_reason": "",
+        "search_performed": false,
+        "success": false,
+        "error_message": "429 Resource has been exhausted (e.g. check quota)."
+      },
+      "report_content": "# 🎯 2026-02-19 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## 🟡 海康威视 (002415)\n\n### 📌 核心结论\n\n**🟡 持有** | 震荡\n\n> **一句话决策**: 分析过程出错: 429 Resource has been exhausted (e.g. check quota).\n\n⏰ **时效性**: 本周内\n\n**⚠️ 风险提示**: 分析失败，请稍后重试或手动分析\n\n---\n\n\n*报告生成时间：2026-02-19 10:51:16*",
+      "created_at": "2026-02-19T10:51:16.701640"
+    },
+    {
+      "id": 6,
+      "code": "300360",
+      "name": "炬华科技",
+      "analysis_date": "2026-02-19",
+      "sentiment_score": 50,
+      "trend_prediction": "震荡",
+      "operation_advice": "持有",
+      "confidence_level": "低",
+      "analysis_data": {
+        "code": "300360",
+        "name": "炬华科技",
+        "sentiment_score": 50,
+        "trend_prediction": "震荡",
+        "operation_advice": "持有",
+        "confidence_level": "低",
+        "dashboard": null,
+        "trend_analysis": "",
+        "short_term_outlook": "",
+        "medium_term_outlook": "",
+        "technical_analysis": "",
+        "ma_analysis": "",
+        "volume_analysis": "",
+        "pattern_analysis": "",
+        "fundamental_analysis": "",
+        "sector_position": "",
+        "company_highlights": "",
+        "news_summary": "",
+        "market_sentiment": "",
+        "hot_topics": "",
+        "analysis_summary": "分析过程出错: 429 Resource has been exhausted (e.g. check quota).",
+        "key_points": "",
+        "risk_warning": "分析失败，请稍后重试或手动分析",
+        "buy_reason": "",
+        "search_performed": false,
+        "success": false,
+        "error_message": "429 Resource has been exhausted (e.g. check quota)."
+      },
+      "report_content": "# 🎯 2026-02-19 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## 🟡 炬华科技 (300360)\n\n### 📌 核心结论\n\n**🟡 持有** | 震荡\n\n> **一句话决策**: 分析过程出错: 429 Resource has been exhausted (e.g. check quota).\n\n⏰ **时效性**: 本周内\n\n**⚠️ 风险提示**: 分析失败，请稍后重试或手动分析\n\n---\n\n\n*报告生成时间：2026-02-19 10:51:16*",
+      "created_at": "2026-02-19T10:51:16.705065"
+    },
+    {
+      "id": 5,
+      "code": "688303",
+      "name": "大全能源",
+      "analysis_date": "2026-02-19",
+      "sentiment_score": 15,
+      "trend_prediction": "强烈看空",
+      "operation_advice": "观望",
+      "confidence_level": "高",
+      "analysis_data": {
+        "code": "688303",
+        "name": "大全能源",
+        "sentiment_score": 15,
+        "trend_prediction": "强烈看空",
+        "operation_advice": "观望",
+        "confidence_level": "高",
+        "dashboard": {
+          "core_conclusion": {
+            "one_sentence": "大全能源处于空头排列，筹码分散，不满足买入条件，建议观望。",
+            "signal_type": "🔴卖出信号/⚠️风险警告",
+            "time_sensitivity": "立即行动",
+            "position_advice": {
+              "no_position": "空仓者：坚决观望，不介入。该股处于空头趋势，且筹码结构不健康，风险较高。",
+              "has_position": "持仓者：建议减仓或清仓规避风险。当前已跌破MA20，且均线空头排列，短期内难以企稳。"
+            }
+          },
+          "data_perspective": {
+            "trend_status": {
+              "ma_alignment": "MA5 (24.03) < MA10 (24.22) < MA20 (24.71)，形成典型空头排列。",
+              "is_bullish": false,
+              "trend_score": 10
+            },
+            "price_position": {
+              "current_price": 23.51,
+              "ma5": 24.03,
+              "ma10": 24.22,
+              "ma20": 24.71,
+              "bias_ma5": -2.16,
+              "bias_status": "安全（未追高，但股价已跌破MA5，显示弱势）",
+              "support_level": 22.0,
+              "resistance_level": 24.03
+            },
+            "volume_analysis": {
+              "volume_ratio": 0.78,
+              "volume_status": "缩量",
+              "turnover_rate": 0.41,
+              "volume_meaning": "缩量下跌，表明抛压有所减轻，但买盘意愿不强，市场观望情绪浓厚，缺乏反弹动能。"
+            },
+            "chip_structure": {
+              "profit_ratio": 8.9,
+              "avg_cost": 27.26,
+              "concentration": 22.02,
+              "chip_health": "警惕"
+            }
+          },
+          "intelligence": {
+            "latest_news": "【最新消息】大全能源发布2026年度开展期货套期保值业务公告。此前有消息称超300亿元市值限售股将解禁，但大股东已再锁半年。",
+            "risk_alerts": [
+              "行业利空：多晶硅供需短期难言改观，行业进入非理性竞争，预计普遍亏损。",
+              "业绩承压：市盈率(动态)为负值，结合行业状况，业绩面临较大挑战。",
+              "筹码分散且套牢盘极重：获利比例仅8.9%，现价远低于平均成本，上方抛压巨大。",
+              "潜在解禁风险：超300亿元市值限售股存在未来解禁压力，虽大股东再锁半年，但中长期风险犹存。",
+              "消息面评分较低：萝卜投研显示公司近期消息面评分较低。"
+            ],
+            "positive_catalysts": [
+              "风险管理：开展期货套期保值业务，有助于管理价格波动风险（中性偏好）。"
+            ],
+            "earnings_outlook": "公司已发布2025年年度业绩预告，但具体内容未提供。结合行业现状，预计业绩不容乐观，市盈率负值也印证了盈利压力。",
+            "sentiment_summary": "市场对公司前景持悲观态度，观望情绪浓厚，缺乏做多信心。"
+          },
+          "battle_plan": {
+            "sniper_points": {
+              "ideal_buy": "不适用（空头排列，无买入机会）",
+              "secondary_buy": "不适用（空头排列，无买入机会）",
+              "stop_loss": "不适用（已跌破MA20，若持有应考虑清仓）",
+              "take_profit": "不适用（当前趋势向下，无明确目标位）"
+            },
+            "position_strategy": {
+              "suggested_position": "0成",
+              "entry_plan": "当前不建议建仓。在趋势未反转（形成多头排列）且基本面无实质性改善前，应保持空仓。",
+              "risk_control": "严格遵守纪律，不逆势操作。密切关注多晶硅行业供需变化及公司业绩改善情况，待趋势明确且筹码结构健康后再考虑。"
+            },
+            "action_checklist": [
+              "❌ 检查项1：多头排列 (MA5 < MA10 < MA20，空头排列)",
+              "✅ 检查项2：乖离率<5% (当前-2.16%，未追高，但趋势向下)",
+              "⚠️ 检查项3：量能配合 (缩量下跌，抛压减轻但买盘不济)",
+              "⚠️ 检查项4：无重大利空 (行业利空、业绩承压、潜在解禁风险)",
+              "❌ 检查项5：筹码健康 (获利比例低，套牢盘重，筹码分散)"
+            ]
+          }
+        },
+        "trend_analysis": "大全能源K线形态呈现持续下跌走势，当前收盘价23.51元，已跌破MA5、MA10、MA20所有均线，且均线系统呈空头排列，显示股价处于明显的下降趋势中。今日收阴线，跌破日内最低价，表明空方力量占据主导。",
+        "short_term_outlook": "短期内（1-3日）股价预计将继续承压，下方支撑薄弱。若无重大利好刺激，股价可能继续探底，近期MA5将构成强阻力。",
+        "medium_term_outlook": "中期（1-2周）来看，由于均线系统空头排列，趋势难以在短期内逆转。若行业基本面未改善，股价将维持弱势震荡或继续下行，需警惕进一步下跌风险。",
+        "technical_analysis": "股价持续在均线下方运行，且均线系统呈空头排列，表明技术面极度弱势。MACD、KDJ等指标预计也处于空方区域，不支持反弹。当前价格已跌破MA20，意味着中期趋势向下。",
+        "ma_analysis": "MA5 (24.03) < MA10 (24.22) < MA20 (24.71)，典型的空头排列。所有短期和中期均线均在股价之上形成压力，股价上方套牢盘沉重。MA5快速下行，短期内难以形成支撑。",
+        "volume_analysis": "今日成交量8.90万股，成交额2.11亿元，量比0.78，显示缩量下跌。缩量下跌在一定程度上表明抛压有所减缓，但更重要的是缺乏买方承接，市场活跃度低，观望情绪浓厚，无力反弹。",
+        "pattern_analysis": "K线形态为中阴线，收盘价即最低价，显示空方力量强大。结合均线空头排列，短期内难以看到企稳迹象。未形成任何底部反转K线形态。",
+        "fundamental_analysis": "公司市盈率(动态)为负值，表明盈利能力不佳。结合多晶硅行业供需失衡、价格下跌、非理性竞争的现状，公司基本面面临巨大挑战。虽然有期货套期保值业务，但主要用于风险管理而非盈利驱动。",
+        "sector_position": "大全能源属于多晶硅行业。目前该行业整体处于下行周期，供需矛盾突出，产品价格持续低迷，导致行业内企业普遍面临亏损压力。板块整体表现疲软，短期内难以获得行业性支撑。",
+        "company_highlights": "公司作为多晶硅生产商，面临行业周期性波动影响巨大。当前处于行业低谷，盈利能力受损。管理层积极采取期货套保等措施应对风险，但短期内业绩改善难度大。",
+        "news_summary": "近期新闻主要关注公司期货套期保值业务和潜在的限售股解禁（大股东已承诺再锁半年）。行业整体面临困境，公司业绩承压。消息面无明显利好刺激。",
+        "market_sentiment": "市场对大全能源的看空情绪浓厚，投资者信心不足，交投清淡，观望情绪占据主导。",
+        "hot_topics": "多晶硅价格走势,光伏行业供需,大宗商品套期保值",
+        "analysis_summary": "大全能源目前处于明显的空头趋势，均线系统呈空头排列，股价已跌破所有关键均线。筹码结构显示大量套牢盘且集中度分散，不利于股价上涨。尽管乖离率未超5%，但这是因为股价持续下跌，而非健康回调。行业面临供需失衡和非理性竞争，业绩承压。综合来看，不满足任何买入条件，风险极高，建议坚决观望或减仓。",
+        "key_points": "空头排列,筹码分散,业绩承压,行业利空,不满足买入条件",
+        "risk_warning": "1. 股价处于下降通道，趋势风险极高。2. 行业基本面短期难以改善，业绩持续承压。3. 筹码结构不健康，上方抛压沉重。4. 潜在解禁风险可能在中长期形成压力。",
+        "buy_reason": "不满足买入条件。根据核心交易理念：1. 不满足“多头排列”条件（当前为空头排列）。2. 筹码结构不健康（获利比例低，筹码分散）。3. 股价已跌破MA20，不属于回踩支撑的买点。",
+        "search_performed": true,
+        "success": true,
+        "error_message": null
+      },
+      "report_content": "# 🎯 2026-02-19 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## ⚪ 大全能源 (688303)\n\n### 📰 重要信息速览\n\n**💭 舆情情绪**: 市场对公司前景持悲观态度，观望情绪浓厚，缺乏做多信心。\n**📊 业绩预期**: 公司已发布2025年年度业绩预告，但具体内容未提供。结合行业现状，预计业绩不容乐观，市盈率负值也印证了盈利压力。\n\n**🚨 风险警报**:\n- 行业利空：多晶硅供需短期难言改观，行业进入非理性竞争，预计普遍亏损。\n- 业绩承压：市盈率(动态)为负值，结合行业状况，业绩面临较大挑战。\n- 筹码分散且套牢盘极重：获利比例仅8.9%，现价远低于平均成本，上方抛压巨大。\n- 潜在解禁风险：超300亿元市值限售股存在未来解禁压力，虽大股东再锁半年，但中长期风险犹存。\n- 消息面评分较低：萝卜投研显示公司近期消息面评分较低。\n\n**✨ 利好催化**:\n- 风险管理：开展期货套期保值业务，有助于管理价格波动风险（中性偏好）。\n\n**📢 最新动态**: 【最新消息】大全能源发布2026年度开展期货套期保值业务公告。此前有消息称超300亿元市值限售股将解禁，但大股东已再锁半年。\n\n### 📌 核心结论\n\n**⚪ 观望** | 强烈看空\n\n> **一句话决策**: 大全能源处于空头排列，筹码分散，不满足买入条件，建议观望。\n\n⏰ **时效性**: 立即行动\n\n| 持仓情况 | 操作建议 |\n|---------|---------|\n| 🆕 **空仓者** | 空仓者：坚决观望，不介入。该股处于空头趋势，且筹码结构不健康，风险较高。 |\n| 💼 **持仓者** | 持仓者：建议减仓或清仓规避风险。当前已跌破MA20，且均线空头排列，短期内难以企稳。 |\n\n### 📊 数据透视\n\n**均线排列**: MA5 (24.03) < MA10 (24.22) < MA20 (24.71)，形成典型空头排列。 | 多头排列: ❌ 否 | 趋势强度: 10/100\n\n| 价格指标 | 数值 |\n|---------|------|\n| 当前价 | 23.51 |\n| MA5 | 24.03 |\n| MA10 | 24.22 |\n| MA20 | 24.71 |\n| 乖离率(MA5) | -2.16% 🚨安全（未追高，但股价已跌破MA5，显示弱势） |\n| 支撑位 | 22.0 |\n| 压力位 | 24.03 |\n\n**量能**: 量比 0.78 (缩量) | 换手率 0.41%\n💡 *缩量下跌，表明抛压有所减轻，但买盘意愿不强，市场观望情绪浓厚，缺乏反弹动能。*\n\n**筹码**: 获利比例 8.9 | 平均成本 27.26 | 集中度 22.02 🚨警惕\n\n### 🎯 作战计划\n\n**📍 狙击点位**\n\n| 点位类型 | 价格 |\n|---------|------|\n| 🎯 理想买入点 | 不适用（空头排列，无买入机会） |\n| 🔵 次优买入点 | 不适用（空头排列，无买入机会） |\n| 🛑 止损位 | 不适用（已跌破MA20，若持有应考虑清仓） |\n| 🎊 目标位 | 不适用（当前趋势向下，无明确目标位） |\n\n**💰 仓位建议**: 0成\n- 建仓策略: 当前不建议建仓。在趋势未反转（形成多头排列）且基本面无实质性改善前，应保持空仓。\n- 风控策略: 严格遵守纪律，不逆势操作。密切关注多晶硅行业供需变化及公司业绩改善情况，待趋势明确且筹码结构健康后再考虑。\n\n**✅ 检查清单**\n\n- ❌ 检查项1：多头排列 (MA5 < MA10 < MA20，空头排列)\n- ✅ 检查项2：乖离率<5% (当前-2.16%，未追高，但趋势向下)\n- ⚠️ 检查项3：量能配合 (缩量下跌，抛压减轻但买盘不济)\n- ⚠️ 检查项4：无重大利空 (行业利空、业绩承压、潜在解禁风险)\n- ❌ 检查项5：筹码健康 (获利比例低，套牢盘重，筹码分散)\n\n---\n\n\n*报告生成时间：2026-02-19 10:51:16*",
+      "created_at": "2026-02-19T10:51:16.703266"
+    }
+  ],
+  "last_update": "2026-02-19T10:51:16.695572"
+}
