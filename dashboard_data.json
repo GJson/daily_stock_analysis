@@ -1,1 +1,250 @@
-{"success": true, "stocks": [], "stats": {"total": 0, "buy": 0, "hold": 0, "sell": 0, "avg_score": 0}}
+{
+  "success": true,
+  "date": "2026-02-26",
+  "stats": {
+    "total": 4,
+    "buy": 0,
+    "hold": 3,
+    "sell": 1,
+    "avg_score": 41.2
+  },
+  "stocks": [
+    {
+      "id": 1,
+      "code": "688322",
+      "name": "股票688322",
+      "analysis_date": "2026-02-26",
+      "sentiment_score": 50,
+      "trend_prediction": "震荡",
+      "operation_advice": "持有",
+      "confidence_level": "低",
+      "analysis_data": {
+        "code": "688322",
+        "name": "股票688322",
+        "sentiment_score": 50,
+        "trend_prediction": "震荡",
+        "operation_advice": "持有",
+        "confidence_level": "低",
+        "dashboard": null,
+        "trend_analysis": "",
+        "short_term_outlook": "",
+        "medium_term_outlook": "",
+        "technical_analysis": "",
+        "ma_analysis": "",
+        "volume_analysis": "",
+        "pattern_analysis": "",
+        "fundamental_analysis": "",
+        "sector_position": "",
+        "company_highlights": "",
+        "news_summary": "",
+        "market_sentiment": "",
+        "hot_topics": "",
+        "analysis_summary": "分析过程出错: 429 Resource has been exhausted (e.g. check quota).",
+        "key_points": "",
+        "risk_warning": "分析失败，请稍后重试或手动分析",
+        "buy_reason": "",
+        "search_performed": false,
+        "success": false,
+        "error_message": "429 Resource has been exhausted (e.g. check quota)."
+      },
+      "report_content": "# 🎯 2026-02-26 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## 🟡 股票688322 (688322)\n\n### 📌 核心结论\n\n**🟡 持有** | 震荡\n\n> **一句话决策**: 分析过程出错: 429 Resource has been exhausted (e.g. check quota).\n\n⏰ **时效性**: 本周内\n\n**⚠️ 风险提示**: 分析失败，请稍后重试或手动分析\n\n---\n\n\n*报告生成时间：2026-02-26 10:52:39*",
+      "created_at": "2026-02-26T10:52:39.225860"
+    },
+    {
+      "id": 2,
+      "code": "002415",
+      "name": "海康威视",
+      "analysis_date": "2026-02-26",
+      "sentiment_score": 50,
+      "trend_prediction": "震荡",
+      "operation_advice": "持有",
+      "confidence_level": "低",
+      "analysis_data": {
+        "code": "002415",
+        "name": "海康威视",
+        "sentiment_score": 50,
+        "trend_prediction": "震荡",
+        "operation_advice": "持有",
+        "confidence_level": "低",
+        "dashboard": null,
+        "trend_analysis": "",
+        "short_term_outlook": "",
+        "medium_term_outlook": "",
+        "technical_analysis": "",
+        "ma_analysis": "",
+        "volume_analysis": "",
+        "pattern_analysis": "",
+        "fundamental_analysis": "",
+        "sector_position": "",
+        "company_highlights": "",
+        "news_summary": "",
+        "market_sentiment": "",
+        "hot_topics": "",
+        "analysis_summary": "```json\n{\n    \"sentiment_score\": 35,\n    \"trend_prediction\": \"看空\",\n    \"operation_advice\": \"观望\",\n    \"confidence_level\": \"高\",\n    \n    \"dashboard\": {\n        \"core_conclusion\": {\n            \"one_sentence\": \"趋势走弱，跌破均线支撑，叠加重大利空，建议坚决观望。\",\n            \"signal_type\": \"⚠️风险警告\",\n            \"time_sensitivity\": \"立即行动\",\n            \"position_advice\": {\n                \"no_position\": \"空仓者应坚决回避，不建议介入。等待风险充分释放和明确的多头趋势形成。\",\n                \"has_position\": \"持仓者应高度警惕风险，考虑适当减仓或设定严格止损位（如跌破31.00元）以规避进一步损失。\"\n    ",
+        "key_points": "JSON解析失败，仅供参考",
+        "risk_warning": "分析结果可能不准确，建议结合其他信息判断",
+        "buy_reason": "",
+        "search_performed": true,
+        "success": true,
+        "error_message": null
+      },
+      "report_content": "# 🎯 2026-02-26 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## 🟡 海康威视 (002415)\n\n### 📌 核心结论\n\n**🟡 持有** | 震荡\n\n> **一句话决策**: ```json\n{\n    \"sentiment_score\": 35,\n    \"trend_prediction\": \"看空\",\n    \"operation_advice\": \"观望\",\n    \"confidence_level\": \"高\",\n    \n    \"dashboard\": {\n        \"core_conclusion\": {\n            \"one_sentence\": \"趋势走弱，跌破均线支撑，叠加重大利空，建议坚决观望。\",\n            \"signal_type\": \"⚠️风险警告\",\n            \"time_sensitivity\": \"立即行动\",\n            \"position_advice\": {\n                \"no_position\": \"空仓者应坚决回避，不建议介入。等待风险充分释放和明确的多头趋势形成。\",\n                \"has_position\": \"持仓者应高度警惕风险，考虑适当减仓或设定严格止损位（如跌破31.00元）以规避进一步损失。\"\n    \n\n⏰ **时效性**: 本周内\n\n**⚠️ 风险提示**: 分析结果可能不准确，建议结合其他信息判断\n\n---\n\n\n*报告生成时间：2026-02-26 10:52:39*",
+      "created_at": "2026-02-26T10:52:39.228223"
+    },
+    {
+      "id": 4,
+      "code": "300360",
+      "name": "股票300360",
+      "analysis_date": "2026-02-26",
+      "sentiment_score": 50,
+      "trend_prediction": "震荡",
+      "operation_advice": "持有",
+      "confidence_level": "低",
+      "analysis_data": {
+        "code": "300360",
+        "name": "股票300360",
+        "sentiment_score": 50,
+        "trend_prediction": "震荡",
+        "operation_advice": "持有",
+        "confidence_level": "低",
+        "dashboard": null,
+        "trend_analysis": "",
+        "short_term_outlook": "",
+        "medium_term_outlook": "",
+        "technical_analysis": "",
+        "ma_analysis": "",
+        "volume_analysis": "",
+        "pattern_analysis": "",
+        "fundamental_analysis": "",
+        "sector_position": "",
+        "company_highlights": "",
+        "news_summary": "",
+        "market_sentiment": "",
+        "hot_topics": "",
+        "analysis_summary": "分析过程出错: 429 Resource has been exhausted (e.g. check quota).",
+        "key_points": "",
+        "risk_warning": "分析失败，请稍后重试或手动分析",
+        "buy_reason": "",
+        "search_performed": false,
+        "success": false,
+        "error_message": "429 Resource has been exhausted (e.g. check quota)."
+      },
+      "report_content": "# 🎯 2026-02-26 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## 🟡 股票300360 (300360)\n\n### 📌 核心结论\n\n**🟡 持有** | 震荡\n\n> **一句话决策**: 分析过程出错: 429 Resource has been exhausted (e.g. check quota).\n\n⏰ **时效性**: 本周内\n\n**⚠️ 风险提示**: 分析失败，请稍后重试或手动分析\n\n---\n\n\n*报告生成时间：2026-02-26 10:52:39*",
+      "created_at": "2026-02-26T10:52:39.232372"
+    },
+    {
+      "id": 3,
+      "code": "688303",
+      "name": "股票688303",
+      "analysis_date": "2026-02-26",
+      "sentiment_score": 15,
+      "trend_prediction": "强烈看空",
+      "operation_advice": "卖出",
+      "confidence_level": "高",
+      "analysis_data": {
+        "code": "688303",
+        "name": "股票688303",
+        "sentiment_score": 15,
+        "trend_prediction": "强烈看空",
+        "operation_advice": "卖出",
+        "confidence_level": "高",
+        "dashboard": {
+          "core_conclusion": {
+            "one_sentence": "股票688303空头排列，面临减持和业绩预亏双重风险，建议立即清仓或坚决规避。",
+            "signal_type": "🔴卖出信号",
+            "time_sensitivity": "立即行动",
+            "position_advice": {
+              "no_position": "空仓者坚决观望，切勿介入，等待风险完全释放且趋势反转。",
+              "has_position": "持仓者建议立即减仓或清仓，以规避潜在的巨大下行风险。"
+            }
+          },
+          "data_perspective": {
+            "trend_status": {
+              "ma_alignment": "MA5 (23.88元) < MA10 (23.97元) < MA20 (24.60元)，均线呈标准空头排列，趋势明确向下。",
+              "is_bullish": false,
+              "trend_score": 10
+            },
+            "price_position": {
+              "current_price": 23.83,
+              "ma5": 23.88,
+              "ma10": 23.97,
+              "ma20": 24.6,
+              "bias_ma5": -0.21,
+              "bias_status": "安全",
+              "support_level": 23.72,
+              "resistance_level": 24.6
+            },
+            "volume_analysis": {
+              "volume_ratio": 0.72,
+              "volume_status": "缩量",
+              "turnover_rate": 0,
+              "volume_meaning": "今日缩量下跌，表明抛压有所减轻，但买方承接意愿不足，市场仍处于弱势下跌趋势中。"
+            },
+            "chip_structure": {
+              "profit_ratio": 0,
+              "avg_cost": 0,
+              "concentration": 0,
+              "chip_health": "数据缺失，但结合大比例减持风险，筹码结构可能面临巨大压力，存在不确定性。"
+            }
+          },
+          "intelligence": {
+            "latest_news": "【最新消息】大全能源2026-01-28主力资金净卖出335.24万元，显示主力资金持续流出。",
+            "risk_alerts": [
+              "风险点1：存在“清仓式”减持风险，合计减持公司股份不超过720万股，减持比例高达公司总股本的8.42%，对股价构成长期重大压力。",
+              "风险点2：2025年业绩预告存在预亏风险（预亏10万-13万元），公司基本面面临挑战。",
+              "风险点3：主力资金持续净卖出，市场情绪悲观。"
+            ],
+            "positive_catalysts": [
+              "股份回购进展公告 (正面效应有限，需关注回购规模和实际执行情况，目前难以抵消利空)"
+            ],
+            "earnings_outlook": "2025年业绩预告显示存在预亏，表明公司盈利能力可能出现大幅下滑或亏损，对未来业绩预期不利。",
+            "sentiment_summary": "市场对股票688303情绪极度悲观，投资者信心受减持和业绩预亏双重利空严重打击。"
+          },
+          "battle_plan": {
+            "sniper_points": {
+              "ideal_buy": "无，当前不具备任何买入条件。",
+              "secondary_buy": "无，当前不具备任何买入条件。",
+              "stop_loss": "对于现有持仓，建议以23.72元（今日最低价）为短期止损位，跌破则坚决止损；或直接清仓，规避风险。",
+              "take_profit": "无，当前不具备持有或目标位考虑，应以风险规避为主。"
+            },
+            "position_strategy": {
+              "suggested_position": "0成仓位，坚决空仓。",
+              "entry_plan": "无建仓计划，等待公司基本面和技术面均出现彻底逆转，并等待所有风险事件明确解除。",
+              "risk_control": "严格遵守空仓策略，密切关注公司减持进展和业绩报告，在趋势反转和利空出尽前，不考虑任何介入。"
+            },
+            "action_checklist": [
+              "❌ 检查项1：多头排列 (实际为标准空头排列)",
+              "✅ 检查项2：乖离率<5% (乖离率-0.21%，但无买入意义，因趋势恶劣)",
+              "⚠️ 检查项3：量能配合 (缩量下跌，抛压减轻但买盘匮乏，非买入信号)",
+              "❌ 检查项4：无重大利空 (存在大比例减持和业绩预亏)",
+              "❌ 检查项5：筹码健康 (减持风险导致筹码结构面临巨大压力)"
+            ]
+          }
+        },
+        "trend_analysis": "股票688303目前处于明显的下降趋势中，均线系统（MA5, MA10, MA20）呈空头排列，且股价已跌破所有短期均线支撑，表明市场卖盘力量占据绝对主导，短期内难以看到反转迹象。",
+        "short_term_outlook": "预计短期（1-3日）内股价将继续承压，今日收盘价23.83元已低于MA5、MA10，并接近日内低点，下行趋势恐将延续，下方支撑较为脆弱。",
+        "medium_term_outlook": "中期（1-2周）看，鉴于均线空头排列的形成，以及减持和业绩预亏等基本面利空因素，股价将持续处于弱势，若无强力利好刺激，可能进一步探底，投资者应保持高度警惕。",
+        "technical_analysis": "技术面指标全面走弱，K线收出中阴线，且跌破所有短期均线，表明空方力量强劲。其他技术指标（如MACD、KDJ等，虽未提供具体数据但可推断）也应处于弱势区域，整体技术面非常疲软，无反弹动能。",
+        "ma_analysis": "MA5 (23.88元) < MA10 (23.97元) < MA20 (24.60元)，形成标准的空头排列，且均线间距开始发散，预示着下降趋势的强化。股价已运行在所有均线下方，均线已转变为明显的阻力位。",
+        "volume_analysis": "今日成交量较昨日缩量（0.72倍），同时股价下跌2.26%。这种缩量下跌在下降趋势中，通常意味着抛压有所减轻，但也反映出市场买盘意愿极度低迷，多方缺乏有效的承接力量，下跌趋势尚未结束。",
+        "pattern_analysis": "K线形态为一根中阴线，收盘价接近日内最低点，显示空方力量在盘中占据上风，且尾盘卖压依然沉重。这种形态在空头排列中，进一步确认了下跌趋势。",
+        "fundamental_analysis": "公司基本面面临严峻挑战。大比例的“清仓式”减持（8.42%股份）将严重打击市场信心，并可能导致股价长期承压。同时，2025年业绩预告存在预亏，表明公司盈利能力出现问题，基本面支撑不足。",
+        "sector_position": "未提供行业信息，无法进行详细的板块行业分析。但鉴于个股自身面临的重大利空，其风险已远超行业因素。",
+        "company_highlights": "公司亮点：无明显亮点。公司风险：大比例“清仓式”减持、2025年业绩预亏、主力资金持续净卖出、技术面空头排列。",
+        "news_summary": "近期新闻主要围绕公司自身风险展开，包括主力资金净卖出、大比例减持风险以及业绩预亏预警，市场缺乏任何积极的催化剂。",
+        "market_sentiment": "市场情绪极度悲观，投资者对该股未来走势普遍担忧，卖压沉重，缺乏买入意愿。",
+        "hot_topics": "（无特定热点，市场关注焦点集中在公司自身风险事件上）",
+        "analysis_summary": "股票688303目前处于严重的空头排列，股价已跌破所有短期均线，显示市场卖盘力量强大。尽管乖离率不高，但这并非买入信号，而是下跌趋势中的暂时平衡。更令人担忧的是，公司面临高达8.42%的“清仓式”减持风险以及2025年业绩预亏的负面消息，基本面和情绪面均受到重创。主力资金持续净卖出进一步证实了市场的悲观预期。综合来看，该股短期和中期均不具备投资价值，建议投资者坚决规避风险，空仓观望或清仓离场。",
+        "key_points": "空头排列,跌破均线,大比例减持,业绩预亏,主力资金净卖出",
+        "risk_warning": "该股目前面临多重重大利空因素，包括严重的减持风险和业绩预亏，技术面呈现明确的空头趋势。投资者应高度警惕，切勿盲目抄底或持有，存在股价进一步下跌的巨大风险。所有投资决策均应基于独立判断并承担相应风险。",
+        "buy_reason": "不符合任何买入理由。均线系统呈空头排列，与趋势交易理念（只做多头排列）相悖；存在大比例减持和业绩预亏等重大利空，不符合风险排查重点；股价已跌破MA20，不满足回踩支撑的买点偏好。乖离率虽低，但在空头趋势和重大利空下，不构成买入信号。",
+        "search_performed": true,
+        "success": true,
+        "error_message": null
+      },
+      "report_content": "# 🎯 2026-02-26 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:0 🔴卖出:1\n\n---\n\n## 🔴 股票688303 (688303)\n\n### 📰 重要信息速览\n\n**💭 舆情情绪**: 市场对股票688303情绪极度悲观，投资者信心受减持和业绩预亏双重利空严重打击。\n**📊 业绩预期**: 2025年业绩预告显示存在预亏，表明公司盈利能力可能出现大幅下滑或亏损，对未来业绩预期不利。\n\n**🚨 风险警报**:\n- 风险点1：存在“清仓式”减持风险，合计减持公司股份不超过720万股，减持比例高达公司总股本的8.42%，对股价构成长期重大压力。\n- 风险点2：2025年业绩预告存在预亏风险（预亏10万-13万元），公司基本面面临挑战。\n- 风险点3：主力资金持续净卖出，市场情绪悲观。\n\n**✨ 利好催化**:\n- 股份回购进展公告 (正面效应有限，需关注回购规模和实际执行情况，目前难以抵消利空)\n\n**📢 最新动态**: 【最新消息】大全能源2026-01-28主力资金净卖出335.24万元，显示主力资金持续流出。\n\n### 📌 核心结论\n\n**🔴 卖出** | 强烈看空\n\n> **一句话决策**: 股票688303空头排列，面临减持和业绩预亏双重风险，建议立即清仓或坚决规避。\n\n⏰ **时效性**: 立即行动\n\n| 持仓情况 | 操作建议 |\n|---------|---------|\n| 🆕 **空仓者** | 空仓者坚决观望，切勿介入，等待风险完全释放且趋势反转。 |\n| 💼 **持仓者** | 持仓者建议立即减仓或清仓，以规避潜在的巨大下行风险。 |\n\n### 📊 数据透视\n\n**均线排列**: MA5 (23.88元) < MA10 (23.97元) < MA20 (24.60元)，均线呈标准空头排列，趋势明确向下。 | 多头排列: ❌ 否 | 趋势强度: 10/100\n\n| 价格指标 | 数值 |\n|---------|------|\n| 当前价 | 23.83 |\n| MA5 | 23.88 |\n| MA10 | 23.97 |\n| MA20 | 24.6 |\n| 乖离率(MA5) | -0.21% ✅安全 |\n| 支撑位 | 23.72 |\n| 压力位 | 24.6 |\n\n**量能**: 量比 0.72 (缩量) | 换手率 0%\n💡 *今日缩量下跌，表明抛压有所减轻，但买方承接意愿不足，市场仍处于弱势下跌趋势中。*\n\n**筹码**: 获利比例 0 | 平均成本 0 | 集中度 0 🚨数据缺失，但结合大比例减持风险，筹码结构可能面临巨大压力，存在不确定性。\n\n### 🎯 作战计划\n\n**📍 狙击点位**\n\n| 点位类型 | 价格 |\n|---------|------|\n| 🎯 理想买入点 | 无，当前不具备任何买入条件。 |\n| 🔵 次优买入点 | 无，当前不具备任何买入条件。 |\n| 🛑 止损位 | 对于现有持仓，建议以23.72元（今日最低价）为短期止损位，跌破则坚决止损；或直接清仓，规避风险。 |\n| 🎊 目标位 | 无，当前不具备持有或目标位考虑，应以风险规避为主。 |\n\n**💰 仓位建议**: 0成仓位，坚决空仓。\n- 建仓策略: 无建仓计划，等待公司基本面和技术面均出现彻底逆转，并等待所有风险事件明确解除。\n- 风控策略: 严格遵守空仓策略，密切关注公司减持进展和业绩报告，在趋势反转和利空出尽前，不考虑任何介入。\n\n**✅ 检查清单**\n\n- ❌ 检查项1：多头排列 (实际为标准空头排列)\n- ✅ 检查项2：乖离率<5% (乖离率-0.21%，但无买入意义，因趋势恶劣)\n- ⚠️ 检查项3：量能配合 (缩量下跌，抛压减轻但买盘匮乏，非买入信号)\n- ❌ 检查项4：无重大利空 (存在大比例减持和业绩预亏)\n- ❌ 检查项5：筹码健康 (减持风险导致筹码结构面临巨大压力)\n\n---\n\n\n*报告生成时间：2026-02-26 10:52:39*",
+      "created_at": "2026-02-26T10:52:39.230223"
+    }
+  ],
+  "last_update": "2026-02-26T10:52:39.225860"
+}
