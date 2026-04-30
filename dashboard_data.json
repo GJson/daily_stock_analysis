@@ -1,1 +1,476 @@
-{"success": true, "stocks": [], "stats": {"total": 0, "buy": 0, "hold": 0, "sell": 0, "avg_score": 0}}
+{
+  "success": true,
+  "date": "2026-04-30",
+  "stats": {
+    "total": 6,
+    "buy": 0,
+    "hold": 5,
+    "sell": 0,
+    "avg_score": 55.8
+  },
+  "stocks": [
+    {
+      "id": 2,
+      "code": "300059",
+      "name": "东方财富",
+      "analysis_date": "2026-04-30",
+      "sentiment_score": 85,
+      "trend_prediction": "看多",
+      "operation_advice": "买入/加仓",
+      "confidence_level": "高",
+      "analysis_data": {
+        "code": "300059",
+        "name": "东方财富",
+        "sentiment_score": 85,
+        "trend_prediction": "看多",
+        "operation_advice": "买入/加仓",
+        "confidence_level": "高",
+        "dashboard": {
+          "core_conclusion": {
+            "one_sentence": "一季报业绩超预期增长，均线多头且低乖离，回踩MA5即是买点。",
+            "signal_type": "🟢买入信号",
+            "time_sensitivity": "今日内",
+            "position_advice": {
+              "no_position": "建议在20.10-20.35元区间分批建仓，首仓3成。",
+              "has_position": "持股待涨，若股价回踩20.10元附近可顺势加仓。"
+            }
+          },
+          "data_perspective": {
+            "trend_status": {
+              "ma_alignment": "MA5(20.09) > MA10(20.05) > MA20(19.67)，完美多头排列",
+              "is_bullish": true,
+              "trend_score": 90
+            },
+            "price_position": {
+              "current_price": 20.36,
+              "ma5": 20.09,
+              "ma10": 20.05,
+              "ma20": 19.67,
+              "bias_ma5": 1.34,
+              "bias_status": "安全",
+              "support_level": 20.09,
+              "resistance_level": 21.0
+            },
+            "volume_analysis": {
+              "volume_ratio": 1.46,
+              "volume_status": "放量",
+              "turnover_rate": 1.65,
+              "volume_meaning": "温和放量上涨，显示主力资金在业绩利好刺激下进场意愿强烈。"
+            },
+            "chip_structure": {
+              "profit_ratio": 82.5,
+              "avg_cost": 19.25,
+              "concentration": 11.2,
+              "chip_health": "健康"
+            }
+          },
+          "intelligence": {
+            "latest_news": "【最新消息】东方财富2026年一季报实现营收50亿元（+44%），净利润37亿元（+38%），业绩表现极为稳健。",
+            "risk_alerts": [
+              "高管减持：虽比例极小（0.022%），但需关注市场情绪扰动",
+              "自营业务波动：一季报显示自营业务略微承压"
+            ],
+            "positive_catalysts": [
+              "业绩大增：一季度净利增长38%超市场预期",
+              "市场回暖：成交额持续维持在70亿以上高位，财富管理龙头受益"
+            ],
+            "earnings_outlook": "2026年全年预计维持高增长，P/E估值处于历史中位区间，具备配置价值。",
+            "sentiment_summary": "市场对一季报反馈积极，机构评级以买入为主，舆情偏向乐观。"
+          },
+          "battle_plan": {
+            "sniper_points": {
+              "ideal_buy": "20.10元（精确回踩MA5支撑位）",
+              "secondary_buy": "20.05元（MA10强支撑）",
+              "stop_loss": "19.08元（跌破MA20并预留3%空间）",
+              "take_profit": "23.50元（前期高点及整数压力位）"
+            },
+            "position_strategy": {
+              "suggested_position": "6成",
+              "entry_plan": "现价轻仓试探（2成），回踩MA5加仓（2成），站稳21元后追加（2成）。",
+              "risk_control": "若收盘价有效跌破MA20，则无条件减仓至3成以下观察。"
+            },
+            "action_checklist": [
+              "✅ 检查项1：多头排列（MA5>10>20，趋势向上）",
+              "✅ 检查项2：乖离率<5%（当前1.34%，极佳入场点）",
+              "✅ 检查项3：量能配合（1.46倍放量，非虚涨）",
+              "✅ 检查项4：无重大利空（高管减持额度极小，可忽略）",
+              "✅ 检查项5：筹码健康（获利盘充裕且集中度高）"
+            ]
+          }
+        },
+        "trend_analysis": "当前处于上升通道初期，K线重心稳步上移，均线发散上行。",
+        "short_term_outlook": "短期有望挑战21元整数关口，并在该位置进行小幅震荡换手。",
+        "medium_term_outlook": "中期看好随着市场成交量放大，股价回补上方缺口，目标位23-25元。",
+        "technical_analysis": "技术面各项指标均处于强势区，RSI未进入超买，MACD金叉发散中。",
+        "ma_analysis": "MA5/10/20顺向排列，MA20斜率向上，中期支撑强劲。",
+        "volume_analysis": "今日成交额74.49亿，量价配合良好，无背离现象。",
+        "pattern_analysis": "K线沿5日线攀升，属于慢牛走势，稳定性高。",
+        "fundamental_analysis": "作为互联网财富管理龙头，其ROE和利润增速在同行业中保持领先。",
+        "sector_position": "证券/互联网金融板块领头羊，具有极强的板块带动效应。",
+        "company_highlights": "流量护城河稳固，基金代销与证券经纪业务双轮驱动。",
+        "news_summary": "一季报利好已释放，市场正处于对利好的消化与溢价阶段。",
+        "market_sentiment": "积极乐观，资金关注度极高。",
+        "hot_topics": "券商中期反弹、金融科技、业绩增长",
+        "analysis_summary": "东方财富当前呈现标准的技术面与基本面双共振走势。技术上，均线系统呈多头排列，且股价紧贴MA5运行，1.34%的乖离率提供了极高的安全边际。基本面上，2026年一季报业绩大幅增长38%，为股价上行提供了坚实支撑。量能温和放大，显示资金介入迹象明显，是典型的趋势交易优选标的。",
+        "key_points": "一季报利润+38%,均线多头排列,低乖离安全区,温和放量突破",
+        "risk_warning": "需警惕券商板块整体回落风险及自营业务波动对净利润的影响。",
+        "buy_reason": "严格遵循趋势交易理念：多头排列确立（MA5>10>20），且乖离率处于2%以内的最佳买点区间，属于典型的缩量回踩支撑后的启动阶段。",
+        "search_performed": true,
+        "success": true,
+        "error_message": null
+      },
+      "report_content": "# 🎯 2026-04-30 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:0 🔴卖出:0\n\n---\n\n## 💚 东方财富 (300059)\n\n### 📰 重要信息速览\n\n**💭 舆情情绪**: 市场对一季报反馈积极，机构评级以买入为主，舆情偏向乐观。\n**📊 业绩预期**: 2026年全年预计维持高增长，P/E估值处于历史中位区间，具备配置价值。\n\n**🚨 风险警报**:\n- 高管减持：虽比例极小（0.022%），但需关注市场情绪扰动\n- 自营业务波动：一季报显示自营业务略微承压\n\n**✨ 利好催化**:\n- 业绩大增：一季度净利增长38%超市场预期\n- 市场回暖：成交额持续维持在70亿以上高位，财富管理龙头受益\n\n**📢 最新动态**: 【最新消息】东方财富2026年一季报实现营收50亿元（+44%），净利润37亿元（+38%），业绩表现极为稳健。\n\n### 📌 核心结论\n\n**💚 强烈买入** | 看多\n\n> **一句话决策**: 一季报业绩超预期增长，均线多头且低乖离，回踩MA5即是买点。\n\n⏰ **时效性**: 今日内\n\n| 持仓情况 | 操作建议 |\n|---------|---------|\n| 🆕 **空仓者** | 建议在20.10-20.35元区间分批建仓，首仓3成。 |\n| 💼 **持仓者** | 持股待涨，若股价回踩20.10元附近可顺势加仓。 |\n\n### 📊 数据透视\n\n**均线排列**: MA5(20.09) > MA10(20.05) > MA20(19.67)，完美多头排列 | 多头排列: ✅ 是 | 趋势强度: 90/100\n\n| 价格指标 | 数值 |\n|---------|------|\n| 当前价 | 20.36 |\n| MA5 | 20.09 |\n| MA10 | 20.05 |\n| MA20 | 19.67 |\n| 乖离率(MA5) | 1.34% ✅安全 |\n| 支撑位 | 20.09 |\n| 压力位 | 21.0 |\n\n**量能**: 量比 1.46 (放量) | 换手率 1.65%\n💡 *温和放量上涨，显示主力资金在业绩利好刺激下进场意愿强烈。*\n\n**筹码**: 获利比例 82.5 | 平均成本 19.25 | 集中度 11.2 ✅健康\n\n### 🎯 作战计划\n\n**📍 狙击点位**\n\n| 点位类型 | 价格 |\n|---------|------|\n| 🎯 理想买入点 | 20.10元（精确回踩MA5支撑位） |\n| 🔵 次优买入点 | 20.05元（MA10强支撑） |\n| 🛑 止损位 | 19.08元（跌破MA20并预留3%空间） |\n| 🎊 目标位 | 23.50元（前期高点及整数压力位） |\n\n**💰 仓位建议**: 6成\n- 建仓策略: 现价轻仓试探（2成），回踩MA5加仓（2成），站稳21元后追加（2成）。\n- 风控策略: 若收盘价有效跌破MA20，则无条件减仓至3成以下观察。\n\n**✅ 检查清单**\n\n- ✅ 检查项1：多头排列（MA5>10>20，趋势向上）\n- ✅ 检查项2：乖离率<5%（当前1.34%，极佳入场点）\n- ✅ 检查项3：量能配合（1.46倍放量，非虚涨）\n- ✅ 检查项4：无重大利空（高管减持额度极小，可忽略）\n- ✅ 检查项5：筹码健康（获利盘充裕且集中度高）\n\n---\n\n\n*报告生成时间：2026-04-30 11:29:47*",
+      "created_at": "2026-04-30T11:29:47.887108"
+    },
+    {
+      "id": 1,
+      "code": "688322",
+      "name": "股票688322",
+      "analysis_date": "2026-04-30",
+      "sentiment_score": 52,
+      "trend_prediction": "震荡",
+      "operation_advice": "观望",
+      "confidence_level": "中",
+      "analysis_data": {
+        "code": "688322",
+        "name": "股票688322",
+        "sentiment_score": 52,
+        "trend_prediction": "震荡",
+        "operation_advice": "观望",
+        "confidence_level": "中",
+        "dashboard": {
+          "core_conclusion": {
+            "one_sentence": "一季报业绩虽扭亏，但均线未成多头且套牢盘重，等待趋势确认。",
+            "signal_type": "🟡持有观望",
+            "time_sensitivity": "本周内",
+            "position_advice": {
+              "no_position": "右侧交易者等待MA5上穿MA10并站稳80.41元后再行介入。",
+              "has_position": "持股观察MA20支撑，若反弹至82.66元平均成本区受阻可减仓。"
+            }
+          },
+          "data_perspective": {
+            "trend_status": {
+              "ma_alignment": "均线缠绕：MA10 > MA20 > MA5，短期趋势尚未反转为多头",
+              "is_bullish": false,
+              "trend_score": 45
+            },
+            "price_position": {
+              "current_price": 79.58,
+              "ma5": 78.09,
+              "ma10": 80.41,
+              "ma20": 79.9,
+              "bias_ma5": 1.91,
+              "bias_status": "安全",
+              "support_level": 78.09,
+              "resistance_level": 80.41
+            },
+            "volume_analysis": {
+              "volume_ratio": 1.12,
+              "volume_status": "平量",
+              "turnover_rate": "暂无明确数据",
+              "volume_meaning": "温和反弹，量能未见明显攻击性放大，属于消息面后的情绪修复。"
+            },
+            "chip_structure": {
+              "profit_ratio": 28.2,
+              "avg_cost": 82.66,
+              "concentration": 14.29,
+              "chip_health": "警惕"
+            }
+          },
+          "intelligence": {
+            "latest_news": "【2026年一季报】奥比中光实现净利润3099.66万元，基本面出现显著改善扭亏为盈。",
+            "risk_alerts": [
+              "筹码结构极差：获利盘不足30%，上方存在超过70%的套牢盘压力",
+              "均线压制：股价仍运行在MA10和MA20下方，尚未形成多头趋势"
+            ],
+            "positive_catalysts": [
+              "业绩拐点：一季报利润转正，体现了3D视觉传感业务的增长潜力",
+              "行业热点：涉及空间计算、SLAM算法等前沿AR/VR技术领域"
+            ],
+            "earnings_outlook": "2026年一季报利润转正为全年业绩向好奠定基础，市场预期2025-2027年营收将持续高速增长。",
+            "sentiment_summary": "业绩利好对冲技术面颓势，市场处于弱平衡状态。"
+          },
+          "battle_plan": {
+            "sniper_points": {
+              "ideal_buy": "78.10元（回踩MA5支撑位）",
+              "secondary_buy": "80.50元（有效突破MA10阻力位）",
+              "stop_loss": "75.70元（跌破今日低点并偏离MA5超过3%）",
+              "take_profit": "82.66元（平均成本密集压力区）"
+            },
+            "position_strategy": {
+              "suggested_position": "2成以下",
+              "entry_plan": "当前仅适合轻仓试探，待MA5>MA10>MA20多头排列确立后加仓。",
+              "risk_control": "若收盘价跌破MA20且MA5勾头向下，需无条件止损。"
+            },
+            "action_checklist": [
+              "❌ 检查项1：多头排列（当前MA5仍处于均线系统底层）",
+              "✅ 检查项2：乖离率<5%（当前1.91%，符合严进策略要求）",
+              "⚠️ 检查项3：量能配合（温和放量但未达爆量突破标准）",
+              "✅ 检查项4：无重大利空（一季报利好，暂无新增违规处罚）",
+              "❌ 检查项5：筹码健康（套牢盘高达71.8%，上行抛压沉重）"
+            ]
+          }
+        },
+        "trend_analysis": "当前处于下跌后的筑底修复期，K线站上MA5但受阻于MA10。",
+        "short_term_outlook": "预计在78.0-81.0元区间震荡，等待方向选择。",
+        "medium_term_outlook": "若能放量站稳82.66元，则中期趋势有望反转。",
+        "technical_analysis": "技术指标显示反弹力度尚可，但缺乏持续性量能配合。",
+        "ma_analysis": "MA5(78.09) < MA20(79.9) < MA10(80.41)，均线空头排列尚未扭转。",
+        "volume_analysis": "成交量较昨日微增，显示有部分资金博弈业绩利好，但未形成合力。",
+        "pattern_analysis": "形成低位小阳线，尝试收复失地。",
+        "fundamental_analysis": "一季报净利润3099.66万，基本面拐点初现。",
+        "sector_position": "处于科创板半导体/AI视觉细分领域，受科技股整体情绪影响较大。",
+        "company_highlights": "3D视觉传感器龙头，受益于机器人及空间计算需求增长。",
+        "news_summary": "一季报业绩亮眼，空间相机技术获市场关注。",
+        "market_sentiment": "中性偏积极",
+        "hot_topics": "一季报预增,人工智能,科创板反弹",
+        "analysis_summary": "奥比中光(688322)基本面出现积极变化，2026年一季报扭亏为盈是核心支撑。然而，技术面尚未走出空头阴影，均线系统呈缠绕状，MA5尚未上穿中长期均线，不符合趋势交易的“多头排列”硬性指标。同时，筹码获利比极低，上方82元附近抛压巨大，短期大概率维持震荡整理以消化套牢盘。",
+        "key_points": "一季报扭亏为盈,均线缠绕待突破,套牢筹码密集,3D视觉行业属性",
+        "risk_warning": "警惕上方套牢盘抛压及均线系统反转失败风险",
+        "buy_reason": "乖离率虽低，但因不满足MA5>MA10>MA20的多头排列硬性条件，根据‘严进策略’，当前判定为观望，不可追高介入。",
+        "search_performed": true,
+        "success": true,
+        "error_message": null
+      },
+      "report_content": "# 🎯 2026-04-30 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## ⚪ 股票688322 (688322)\n\n### 📰 重要信息速览\n\n**💭 舆情情绪**: 业绩利好对冲技术面颓势，市场处于弱平衡状态。\n**📊 业绩预期**: 2026年一季报利润转正为全年业绩向好奠定基础，市场预期2025-2027年营收将持续高速增长。\n\n**🚨 风险警报**:\n- 筹码结构极差：获利盘不足30%，上方存在超过70%的套牢盘压力\n- 均线压制：股价仍运行在MA10和MA20下方，尚未形成多头趋势\n\n**✨ 利好催化**:\n- 业绩拐点：一季报利润转正，体现了3D视觉传感业务的增长潜力\n- 行业热点：涉及空间计算、SLAM算法等前沿AR/VR技术领域\n\n**📢 最新动态**: 【2026年一季报】奥比中光实现净利润3099.66万元，基本面出现显著改善扭亏为盈。\n\n### 📌 核心结论\n\n**⚪ 观望** | 震荡\n\n> **一句话决策**: 一季报业绩虽扭亏，但均线未成多头且套牢盘重，等待趋势确认。\n\n⏰ **时效性**: 本周内\n\n| 持仓情况 | 操作建议 |\n|---------|---------|\n| 🆕 **空仓者** | 右侧交易者等待MA5上穿MA10并站稳80.41元后再行介入。 |\n| 💼 **持仓者** | 持股观察MA20支撑，若反弹至82.66元平均成本区受阻可减仓。 |\n\n### 📊 数据透视\n\n**均线排列**: 均线缠绕：MA10 > MA20 > MA5，短期趋势尚未反转为多头 | 多头排列: ❌ 否 | 趋势强度: 45/100\n\n| 价格指标 | 数值 |\n|---------|------|\n| 当前价 | 79.58 |\n| MA5 | 78.09 |\n| MA10 | 80.41 |\n| MA20 | 79.9 |\n| 乖离率(MA5) | 1.91% ✅安全 |\n| 支撑位 | 78.09 |\n| 压力位 | 80.41 |\n\n**量能**: 量比 1.12 (平量) | 换手率 暂无明确数据%\n💡 *温和反弹，量能未见明显攻击性放大，属于消息面后的情绪修复。*\n\n**筹码**: 获利比例 28.2 | 平均成本 82.66 | 集中度 14.29 🚨警惕\n\n### 🎯 作战计划\n\n**📍 狙击点位**\n\n| 点位类型 | 价格 |\n|---------|------|\n| 🎯 理想买入点 | 78.10元（回踩MA5支撑位） |\n| 🔵 次优买入点 | 80.50元（有效突破MA10阻力位） |\n| 🛑 止损位 | 75.70元（跌破今日低点并偏离MA5超过3%） |\n| 🎊 目标位 | 82.66元（平均成本密集压力区） |\n\n**💰 仓位建议**: 2成以下\n- 建仓策略: 当前仅适合轻仓试探，待MA5>MA10>MA20多头排列确立后加仓。\n- 风控策略: 若收盘价跌破MA20且MA5勾头向下，需无条件止损。\n\n**✅ 检查清单**\n\n- ❌ 检查项1：多头排列（当前MA5仍处于均线系统底层）\n- ✅ 检查项2：乖离率<5%（当前1.91%，符合严进策略要求）\n- ⚠️ 检查项3：量能配合（温和放量但未达爆量突破标准）\n- ✅ 检查项4：无重大利空（一季报利好，暂无新增违规处罚）\n- ❌ 检查项5：筹码健康（套牢盘高达71.8%，上行抛压沉重）\n\n---\n\n\n*报告生成时间：2026-04-30 11:29:47*",
+      "created_at": "2026-04-30T11:29:47.884439"
+    },
+    {
+      "id": 4,
+      "code": "002415",
+      "name": "海康威视",
+      "analysis_date": "2026-04-30",
+      "sentiment_score": 50,
+      "trend_prediction": "震荡",
+      "operation_advice": "持有",
+      "confidence_level": "低",
+      "analysis_data": {
+        "code": "002415",
+        "name": "海康威视",
+        "sentiment_score": 50,
+        "trend_prediction": "震荡",
+        "operation_advice": "持有",
+        "confidence_level": "低",
+        "dashboard": null,
+        "trend_analysis": "",
+        "short_term_outlook": "",
+        "medium_term_outlook": "",
+        "technical_analysis": "",
+        "ma_analysis": "",
+        "volume_analysis": "",
+        "pattern_analysis": "",
+        "fundamental_analysis": "",
+        "sector_position": "",
+        "company_highlights": "",
+        "news_summary": "",
+        "market_sentiment": "",
+        "hot_topics": "",
+        "analysis_summary": "分析过程出错: 429 You exceeded your current quota, please check your plan and billing details. For more informatio",
+        "key_points": "",
+        "risk_warning": "分析失败，请稍后重试或手动分析",
+        "buy_reason": "",
+        "search_performed": false,
+        "success": false,
+        "error_message": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\nPlease retry in 26.063468199s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 5\n}\n, retry_delay {\n  seconds: 26\n}\n]"
+      },
+      "report_content": "# 🎯 2026-04-30 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## 🟡 海康威视 (002415)\n\n### 📌 核心结论\n\n**🟡 持有** | 震荡\n\n> **一句话决策**: 分析过程出错: 429 You exceeded your current quota, please check your plan and billing details. For more informatio\n\n⏰ **时效性**: 本周内\n\n**⚠️ 风险提示**: 分析失败，请稍后重试或手动分析\n\n---\n\n\n*报告生成时间：2026-04-30 11:29:47*",
+      "created_at": "2026-04-30T11:29:47.891664"
+    },
+    {
+      "id": 5,
+      "code": "688303",
+      "name": "股票688303",
+      "analysis_date": "2026-04-30",
+      "sentiment_score": 50,
+      "trend_prediction": "震荡",
+      "operation_advice": "持有",
+      "confidence_level": "低",
+      "analysis_data": {
+        "code": "688303",
+        "name": "股票688303",
+        "sentiment_score": 50,
+        "trend_prediction": "震荡",
+        "operation_advice": "持有",
+        "confidence_level": "低",
+        "dashboard": null,
+        "trend_analysis": "",
+        "short_term_outlook": "",
+        "medium_term_outlook": "",
+        "technical_analysis": "",
+        "ma_analysis": "",
+        "volume_analysis": "",
+        "pattern_analysis": "",
+        "fundamental_analysis": "",
+        "sector_position": "",
+        "company_highlights": "",
+        "news_summary": "",
+        "market_sentiment": "",
+        "hot_topics": "",
+        "analysis_summary": "分析过程出错: 429 Resource has been exhausted (e.g. check quota).",
+        "key_points": "",
+        "risk_warning": "分析失败，请稍后重试或手动分析",
+        "buy_reason": "",
+        "search_performed": false,
+        "success": false,
+        "error_message": "429 Resource has been exhausted (e.g. check quota)."
+      },
+      "report_content": "# 🎯 2026-04-30 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## 🟡 股票688303 (688303)\n\n### 📌 核心结论\n\n**🟡 持有** | 震荡\n\n> **一句话决策**: 分析过程出错: 429 Resource has been exhausted (e.g. check quota).\n\n⏰ **时效性**: 本周内\n\n**⚠️ 风险提示**: 分析失败，请稍后重试或手动分析\n\n---\n\n\n*报告生成时间：2026-04-30 11:29:47*",
+      "created_at": "2026-04-30T11:29:47.893595"
+    },
+    {
+      "id": 6,
+      "code": "300360",
+      "name": "股票300360",
+      "analysis_date": "2026-04-30",
+      "sentiment_score": 50,
+      "trend_prediction": "震荡",
+      "operation_advice": "持有",
+      "confidence_level": "低",
+      "analysis_data": {
+        "code": "300360",
+        "name": "股票300360",
+        "sentiment_score": 50,
+        "trend_prediction": "震荡",
+        "operation_advice": "持有",
+        "confidence_level": "低",
+        "dashboard": null,
+        "trend_analysis": "",
+        "short_term_outlook": "",
+        "medium_term_outlook": "",
+        "technical_analysis": "",
+        "ma_analysis": "",
+        "volume_analysis": "",
+        "pattern_analysis": "",
+        "fundamental_analysis": "",
+        "sector_position": "",
+        "company_highlights": "",
+        "news_summary": "",
+        "market_sentiment": "",
+        "hot_topics": "",
+        "analysis_summary": "分析过程出错: 429 Resource has been exhausted (e.g. check quota).",
+        "key_points": "",
+        "risk_warning": "分析失败，请稍后重试或手动分析",
+        "buy_reason": "",
+        "search_performed": false,
+        "success": false,
+        "error_message": "429 Resource has been exhausted (e.g. check quota)."
+      },
+      "report_content": "# 🎯 2026-04-30 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## 🟡 股票300360 (300360)\n\n### 📌 核心结论\n\n**🟡 持有** | 震荡\n\n> **一句话决策**: 分析过程出错: 429 Resource has been exhausted (e.g. check quota).\n\n⏰ **时效性**: 本周内\n\n**⚠️ 风险提示**: 分析失败，请稍后重试或手动分析\n\n---\n\n\n*报告生成时间：2026-04-30 11:29:47*",
+      "created_at": "2026-04-30T11:29:47.895642"
+    },
+    {
+      "id": 3,
+      "code": "688343",
+      "name": "股票688343",
+      "analysis_date": "2026-04-30",
+      "sentiment_score": 48,
+      "trend_prediction": "震荡",
+      "operation_advice": "观望",
+      "confidence_level": "中",
+      "analysis_data": {
+        "code": "688343",
+        "name": "股票688343",
+        "sentiment_score": 48,
+        "trend_prediction": "震荡",
+        "operation_advice": "观望",
+        "confidence_level": "中",
+        "dashboard": {
+          "core_conclusion": {
+            "one_sentence": "均线缠绕未成多头，大额减持压制反弹，暂不具备趋势买入条件。",
+            "signal_type": "🟡持有观望",
+            "time_sensitivity": "本周内",
+            "position_advice": {
+              "no_position": "空仓者建议：趋势未反转前不介入，等待MA5金叉MA10且站稳91元上方。",
+              "has_position": "持仓者建议：反抽MA10(90.58元)不能放量突破则减仓，跌破MA20(87.05元)止损。"
+            }
+          },
+          "data_perspective": {
+            "trend_status": {
+              "ma_alignment": "MA10 > MA5 > MA20，均线空头缠绕，短期趋势受阻",
+              "is_bullish": false,
+              "trend_score": 45
+            },
+            "price_position": {
+              "current_price": 88.0,
+              "ma5": 87.62,
+              "ma10": 90.58,
+              "ma20": 87.05,
+              "bias_ma5": 0.43,
+              "bias_status": "安全",
+              "support_level": 87.05,
+              "resistance_level": 90.58
+            },
+            "volume_analysis": {
+              "volume_ratio": 1.71,
+              "volume_status": "放量",
+              "turnover_rate": 5.4,
+              "volume_meaning": "放量反弹但未能收复MA10，显示上方抛压依然沉重，多头动能被对冲。"
+            },
+            "chip_structure": {
+              "profit_ratio": 42.5,
+              "avg_cost": 89.2,
+              "concentration": 16.8,
+              "chip_health": "一般"
+            }
+          },
+          "intelligence": {
+            "latest_news": "【重要公告】控股股东远东控股拟减持3%股份用于投资项目；2025年营收增长42.57%。",
+            "risk_alerts": [
+              "风险点1：控股股东拟减持3%股份，短期二级市场筹码压力巨大。",
+              "风险点2：公司仍处于亏损状态（带U标识），估值支撑依赖成长预期。"
+            ],
+            "positive_catalysts": [
+              "利好1：2025年度业绩快报显示营收大幅增长，基本面有改善迹象。",
+              "利好2：行业处于AI算力与边缘计算热点赛道。"
+            ],
+            "earnings_outlook": "2025年营收13.08亿元，同比增42%，显示业务扩张速度较快，但盈利拐点需关注一季报。",
+            "sentiment_summary": "市场对业绩增长持肯定态度，但被大额减持利空对冲，情绪偏谨慎。"
+          },
+          "battle_plan": {
+            "sniper_points": {
+              "ideal_buy": "87.10元（回踩MA20支撑位且缩量）",
+              "secondary_buy": "91.20元（有效突破MA10压力位后回踩不破）",
+              "stop_loss": "85.30元（跌破MA20支撑位并留有2%容错）",
+              "take_profit": "98.50元（前期密集成交区压力）"
+            },
+            "position_strategy": {
+              "suggested_position": "0-2成",
+              "entry_plan": "当前趋势不明确，严禁重仓。仅在站稳91元后考虑分批左侧试探。",
+              "risk_control": "一旦收盘价跌破87元，坚决执行离场计划，防范减持带来的阴跌。"
+            },
+            "action_checklist": [
+              "❌ 检查项1：多头排列（MA5仍低于MA10，未形成多头）",
+              "✅ 检查项2：乖离率<5%（0.43%，价格紧贴均线）",
+              "✅ 检查项3：量能配合（今日放量，但需观察持续性）",
+              "❌ 检查项4：无重大利空（存在3%大股东减持利空）",
+              "⚠️ 检查项5：筹码健康（减持预期导致筹码趋于松动）"
+            ]
+          }
+        },
+        "trend_analysis": "K线在MA20与MA10之间震荡，属于典型的‘夹板行情’，方向选择在即。",
+        "short_term_outlook": "预计在87-91元区间震荡，消化减持利空。",
+        "medium_term_outlook": "需等待MA5上穿MA10形成金叉，且成交量持续放大方可看多至100元上方。",
+        "technical_analysis": "反弹受阻于MA10，MA20提供暂时支撑，MACD绿柱缩短但未翻红。",
+        "ma_analysis": "MA10(90.58)是当前核心压力，MA20(87.05)是短期多头最后防线。",
+        "volume_analysis": "量比1.71倍显示资金活跃度提升，但抛压同步增加，多空分歧大。",
+        "pattern_analysis": "今日收出带长上影线的中阳线，显示冲高回落，90元上方阻力强劲。",
+        "fundamental_analysis": "营收增长强劲但仍未盈利，属于典型的高成长高风险AI芯片股。",
+        "sector_position": "处于AI算力板块，近期板块随大盘调整，个股强度中等。",
+        "company_highlights": "边缘AI领军企业，营收增速超40%，具备技术护城河。",
+        "news_summary": "业绩增长利好与股东减持利空交织，市场正在权衡两者的长期影响。",
+        "market_sentiment": "中性偏谨慎，资金对减持公告较为敏感。",
+        "hot_topics": "人工智能、算力芯片、科创板减持",
+        "analysis_summary": "云天励飞(688343)当前处于技术面修复期，虽有业绩高增长支撑，但MA10压力位(90.58)压制明显，且MA5<MA10不符合趋势交易的多头准则。结合控股股东3%的减持计划，短期股价上行空间受限。目前属于‘上有压力、下有支撑’的震荡格局，不建议盲目追高。",
+        "key_points": "均线未成多头,大股东拟减持3%,业绩快报营收大增,MA10压力明显",
+        "risk_warning": "大股东减持抛压、公司持续亏损风险、均线系统空头排列未扭转",
+        "buy_reason": "当前不建议买入。依据交易理念：非多头排列（MA5<MA10）坚决不碰，且存在重大利空（减持），应严格执行观望策略。",
+        "search_performed": true,
+        "success": true,
+        "error_message": null
+      },
+      "report_content": "# 🎯 2026-04-30 决策仪表盘\n\n> 共分析 **1** 只股票 | 🟢买入:0 🟡观望:1 🔴卖出:0\n\n---\n\n## ⚪ 股票688343 (688343)\n\n### 📰 重要信息速览\n\n**💭 舆情情绪**: 市场对业绩增长持肯定态度，但被大额减持利空对冲，情绪偏谨慎。\n**📊 业绩预期**: 2025年营收13.08亿元，同比增42%，显示业务扩张速度较快，但盈利拐点需关注一季报。\n\n**🚨 风险警报**:\n- 风险点1：控股股东拟减持3%股份，短期二级市场筹码压力巨大。\n- 风险点2：公司仍处于亏损状态（带U标识），估值支撑依赖成长预期。\n\n**✨ 利好催化**:\n- 利好1：2025年度业绩快报显示营收大幅增长，基本面有改善迹象。\n- 利好2：行业处于AI算力与边缘计算热点赛道。\n\n**📢 最新动态**: 【重要公告】控股股东远东控股拟减持3%股份用于投资项目；2025年营收增长42.57%。\n\n### 📌 核心结论\n\n**⚪ 观望** | 震荡\n\n> **一句话决策**: 均线缠绕未成多头，大额减持压制反弹，暂不具备趋势买入条件。\n\n⏰ **时效性**: 本周内\n\n| 持仓情况 | 操作建议 |\n|---------|---------|\n| 🆕 **空仓者** | 空仓者建议：趋势未反转前不介入，等待MA5金叉MA10且站稳91元上方。 |\n| 💼 **持仓者** | 持仓者建议：反抽MA10(90.58元)不能放量突破则减仓，跌破MA20(87.05元)止损。 |\n\n### 📊 数据透视\n\n**均线排列**: MA10 > MA5 > MA20，均线空头缠绕，短期趋势受阻 | 多头排列: ❌ 否 | 趋势强度: 45/100\n\n| 价格指标 | 数值 |\n|---------|------|\n| 当前价 | 88.0 |\n| MA5 | 87.62 |\n| MA10 | 90.58 |\n| MA20 | 87.05 |\n| 乖离率(MA5) | 0.43% ✅安全 |\n| 支撑位 | 87.05 |\n| 压力位 | 90.58 |\n\n**量能**: 量比 1.71 (放量) | 换手率 5.4%\n💡 *放量反弹但未能收复MA10，显示上方抛压依然沉重，多头动能被对冲。*\n\n**筹码**: 获利比例 42.5 | 平均成本 89.2 | 集中度 16.8 ⚠️一般\n\n### 🎯 作战计划\n\n**📍 狙击点位**\n\n| 点位类型 | 价格 |\n|---------|------|\n| 🎯 理想买入点 | 87.10元（回踩MA20支撑位且缩量） |\n| 🔵 次优买入点 | 91.20元（有效突破MA10压力位后回踩不破） |\n| 🛑 止损位 | 85.30元（跌破MA20支撑位并留有2%容错） |\n| 🎊 目标位 | 98.50元（前期密集成交区压力） |\n\n**💰 仓位建议**: 0-2成\n- 建仓策略: 当前趋势不明确，严禁重仓。仅在站稳91元后考虑分批左侧试探。\n- 风控策略: 一旦收盘价跌破87元，坚决执行离场计划，防范减持带来的阴跌。\n\n**✅ 检查清单**\n\n- ❌ 检查项1：多头排列（MA5仍低于MA10，未形成多头）\n- ✅ 检查项2：乖离率<5%（0.43%，价格紧贴均线）\n- ✅ 检查项3：量能配合（今日放量，但需观察持续性）\n- ❌ 检查项4：无重大利空（存在3%大股东减持利空）\n- ⚠️ 检查项5：筹码健康（减持预期导致筹码趋于松动）\n\n---\n\n\n*报告生成时间：2026-04-30 11:29:47*",
+      "created_at": "2026-04-30T11:29:47.889470"
+    }
+  ],
+  "last_update": "2026-04-30T11:29:47.887108"
+}
